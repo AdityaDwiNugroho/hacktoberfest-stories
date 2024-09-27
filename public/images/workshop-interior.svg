@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      .bg { fill: #f1f5f9; }
+      .primary { fill: #1e40af; }
+      .secondary { fill: #64748b; }
+      .accent { fill: #0ea5e9; }
+      .text { fill: #1e293b; font-family: Arial, sans-serif; }
+      .equipment { fill: #374151; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" class="bg"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="480" width="800" height="120" fill="#e2e8f0"/>
+  
+  <!-- Work benches -->
+  <rect x="50" y="400" width="200" height="80" class="secondary"/>
+  <rect x="300" y="400" width="200" height="80" class="secondary"/>
+  <rect x="550" y="400" width="200" height="80" class="secondary"/>
+  
+  <!-- Equipment on benches -->
+  <rect x="80" y="380" width="30" height="20" class="equipment"/>
+  <rect x="120" y="370" width="40" height="30" class="equipment"/>
+  <rect x="170" y="375" width="25" height="25" class="equipment"/>
+  
+  <rect x="330" y="375" width="35" height="25" class="equipment"/>
+  <rect x="380" y="370" width="50" height="30" class="equipment"/>
+  <rect x="450" y="380" width="30" height="20" class="equipment"/>
+  
+  <rect x="580" y="370" width="45" height="30" class="equipment"/>
+  <rect x="640" y="375" width="35" height="25" class="equipment"/>
+  <rect x="690" y="380" width="40" height="20" class="equipment"/>
+  
+  <!-- Motorcycle lift -->
+  <rect x="350" y="350" width="100" height="20" class="primary"/>
+  <rect x="390" y="290" width="20" height="60" class="primary"/>
+  <ellipse cx="425" cy="320" rx="40" ry="15" class="accent"/>
+  <rect x="395" y="305" width="60" height="25" rx="5" class="accent"/>
+  <circle cx="410" cy="335" r="8" class="secondary"/>
+  <circle cx="440" cy="335" r="8" class="secondary"/>
+  
+  <!-- Tool cabinet -->
+  <rect x="100" y="250" width="80" height="150" class="equipment"/>
+  <rect x="110" y="260" width="15" height="40" class="accent"/>
+  <rect x="135" y="260" width="15" height="40" class="accent"/>
+  <rect x="160" y="260" width="15" height="40" class="accent"/>
+  <rect x="110" y="320" width="15" height="40" class="accent"/>
+  <rect x="135" y="320" width="15" height="40" class="accent"/>
+  <rect x="160" y="320" width="15" height="40" class="accent"/>
+  
+  <!-- Air compressor -->
+  <circle cx="650" cy="350" r="40" class="equipment"/>
+  <rect x="630" y="390" width="40" height="10" class="equipment"/>
+  <circle cx="650" cy="330" r="15" class="accent"/>
+  
+  <!-- Overhead lights -->
+  <rect x="200" y="80" width="60" height="20" class="secondary"/>
+  <rect x="370" y="80" width="60" height="20" class="secondary"/>
+  <rect x="540" y="80" width="60" height="20" class="secondary"/>
+  
+  <!-- Light beams -->
+  <polygon points="230,100 270,100 350,480 150,480" fill="#fef3c7" opacity="0.3"/>
+  <polygon points="400,100 440,100 520,480 320,480" fill="#fef3c7" opacity="0.3"/>
+  <polygon points="570,100 610,100 690,480 490,480" fill="#fef3c7" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" class="text" font-size="32" font-weight="bold">Interior Bengkel</text>
+  <text x="400" y="550" text-anchor="middle" class="text" font-size="18">Fasilitas Lengkap untuk Perbaikan Motor</text>
+</svg>

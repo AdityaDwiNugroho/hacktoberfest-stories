@@ -1,0 +1,81 @@
+{
+  "name": "Iwan Motor - Bengkel Motor Yogyakarta",
+  "short_name": "Iwan Motor",
+  "description": "Bengkel motor terpercaya di Yogyakarta dengan teknisi berpengalaman",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id-ID",
+  "categories": ["business", "automotive"],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Hubungi WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Chat langsung via WhatsApp",
+      "url": "https://wa.me/6281915539242",
+      "icons": [
+        {
+          "src": "/icons/whatsapp-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Lihat Lokasi",
+      "short_name": "Lokasi",
+      "description": "Buka Google Maps",
+      "url": "https://www.google.com/maps/place/Iwan+Motor/@-7.8545098,110.3566963,17z",
+      "icons": [
+        {
+          "src": "/icons/maps-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

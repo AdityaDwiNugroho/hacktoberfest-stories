@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      .bg { fill: #1e40af; }
+      .accent { fill: #0ea5e9; }
+      .white { fill: white; }
+      .text { fill: white; font-family: Arial, sans-serif; }
+      .highlight { fill: #fbbf24; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" class="bg"/>
+  
+  <!-- Geometric patterns -->
+  <circle cx="100" cy="100" r="50" class="accent" opacity="0.3"/>
+  <circle cx="1100" cy="530" r="60" class="accent" opacity="0.3"/>
+  <rect x="50" y="500" width="100" height="100" rx="20" class="accent" opacity="0.2"/>
+  <rect x="1050" y="50" width="120" height="120" rx="25" class="accent" opacity="0.2"/>
+  
+  <!-- Logo/Brand Section -->
+  <circle cx="300" cy="200" r="80" fill="white" opacity="0.1"/>
+  <g transform="translate(250, 150)">
+    <!-- Wrench icon -->
+    <path d="M40 80 L80 80 L90 90 L90 110 L80 120 L40 120 L30 110 L30 90 Z" class="white"/>
+    <circle cx="65" cy="100" r="12" class="bg"/>
+    <path d="M65 60 L65 20 L55 20 L55 10 L75 10 L75 20 L65 20" class="white"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="600" y="200" text-anchor="middle" class="text" font-size="64" font-weight="bold">
+    IWAN MOTOR
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="250" text-anchor="middle" class="text" font-size="28">
+    Bengkel Motor Terpercaya di Yogyakarta
+  </text>
+  
+  <!-- Services -->
+  <text x="600" y="320" text-anchor="middle" class="text" font-size="20">
+    ✓ Service Motor Matic & Manual  ✓ Teknisi Berpengalaman 15+ Tahun
+  </text>
+  
+  <text x="600" y="350" text-anchor="middle" class="text" font-size="20">
+    ✓ Spare Part Original  ✓ Garansi Service 6 Bulan
+  </text>
+  
+  <!-- Contact Info -->
+  <rect x="400" y="400" width="400" height="100" rx="20" fill="white" opacity="0.9"/>
+  <text x="600" y="430" text-anchor="middle" class="bg" font-size="18" font-weight="bold">
+    Hubungi Kami Sekarang
+  </text>
+  <text x="600" y="455" text-anchor="middle" class="bg" font-size="24" font-weight="bold">
+    +62 819-1553-9242
+  </text>
+  <text x="600" y="480" text-anchor="middle" class="bg" font-size="16">
+    Jl. Colombo No.1, Yogyakarta
+  </text>
+  
+  <!-- Rating -->
+  <g transform="translate(500, 520)">
+    <text x="0" y="0" class="highlight" font-size="24" font-weight="bold">★★★★★</text>
+    <text x="120" y="0" class="text" font-size="18">4.9/5 dari 150+ review</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="900" cy="300" r="30" class="white" opacity="0.1"/>
+  <circle cx="950" cy="350" r="20" class="white" opacity="0.1"/>
+  <circle cx="200" cy="400" r="25" class="white" opacity="0.1"/>
+</svg>
