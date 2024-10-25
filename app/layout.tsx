@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import SEOHead from './components/SEOHead'
 import Analytics from './components/Analytics'
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -46,21 +47,21 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   alternates: {
-    canonical: 'https://iwanmotor.com',
+    canonical: 'https://iwan-motor-git-main-adityaadn.vercel.app',
     languages: {
-      'id-ID': 'https://iwanmotor.com',
+      'id-ID': 'https://iwan-motor-git-main-adityaadn.vercel.app',
     },
   },
   openGraph: {
     type: 'website',
     locale: 'id_ID',
-    url: 'https://iwanmotor.com',
+    url: 'https://iwan-motor-git-main-adityaadn.vercel.app',
     title: 'Iwan Motor | Service Motor Terpercaya Yogyakarta',
     description: 'Bengkel motor profesional dengan layanan service berkualitas, spare part original, dan teknisi berpengalaman di Yogyakarta. Hubungi +62 819-1553-9242',
     siteName: 'Iwan Motor',
     images: [
       {
-        url: 'https://iwanmotor.com/images/workshop-hero.jpg',
+        url: 'https://iwan-motor-git-main-adityaadn.vercel.app/images/workshop-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Iwan Motor - Bengkel Motor Terpercaya Yogyakarta',
@@ -71,7 +72,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Iwan Motor | Service Motor Terpercaya Yogyakarta',
     description: 'Bengkel motor profesional dengan layanan service berkualitas tinggi di Yogyakarta',
-    images: ['https://iwanmotor.com/images/workshop-hero.jpg'],
+    images: ['https://iwan-motor-git-main-adityaadn.vercel.app/images/workshop-hero.jpg'],
     creator: '@iwanmotor',
   },
   icons: {
@@ -135,6 +136,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} antialiased`} suppressHydrationWarning>
         {children}
+        <VercelAnalytics />
       </body>
     </html>
   )

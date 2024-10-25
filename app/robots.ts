@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/admin/', '/_next/'],
     },
-    sitemap: 'https://iwanmotor.com/sitemap.xml',
+    sitemap: 'https://iwan-motor-git-main-adityaadn.vercel.app/sitemap.xml',
   }
 }
