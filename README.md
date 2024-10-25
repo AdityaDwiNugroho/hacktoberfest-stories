@@ -1,4 +1,4 @@
-"# Iwan Motor
+# Iwan Motor
 
 > Workshop website in Yogyakarta
 
@@ -30,6 +30,6 @@ pnpm dev
 ## Contact
 
 **Iwan Motor**  
-📍 Jl. Colombo No.1, Yogyakarta  
+📍 Jl. Parangtritis Km 6.5, Yogyakarta  
 📞 +62 819-1553-9242  
-⏰ Mon-Sat: 08:00-17:00, Sun: 08:00-12:00" 
+⏰ Mon-Sat: 08:00-17:00, Sun: 08:00-12:00
