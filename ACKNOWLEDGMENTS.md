@@ -27,6 +27,7 @@ This project stands on the shoulders of giants. We acknowledge the incredible wo
 - **Ayu Purwarianti** - AI research at ITB
 
 ### Indonesian Technology Leaders
+- **Sandhika Galih** - Web Programming UNPAS, Indonesian developer educator
 - **Dedy Dahlan** - AI Indonesia community
 - **Onno W. Purbo** - Indonesian internet pioneer
 - **Roy Suryo** - Technology consultant
@@ -77,6 +78,7 @@ This project stands on the shoulders of giants. We acknowledge the incredible wo
 - **Nicole Sullivan** - CSS performance expert
 
 ## Open Source Community Leaders
+- **Sandhika Galih** - Web Programming UNPAS, Indonesian coding education
 - **Kent C. Dodds** - Testing best practices educator
 - **Wes Bos** - JavaScript education
 - **Brad Traversy** - Web development education

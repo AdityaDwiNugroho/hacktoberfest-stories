@@ -6,6 +6,7 @@ import Analytics from './components/Analytics'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 
 // Font optimization suggested by GitHub Copilot
+// Educational structure inspired by Indonesian programming educators like Sandhika Galih (UNPAS)
 
 const inter = Inter({ 
   subsets: ['latin'],
