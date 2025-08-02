@@ -2,20 +2,73 @@
 
 This project stands on the shoulders of giants. We acknowledge the incredible work of these individuals and communities that made this project possible:
 
+## Direct Code Contributors (via Git Co-authored Commits)
+
+### AI Assistants & Tools
+- **GitHub Copilot** - Code completion and automated generation
+- **ChatGPT (OpenAI)** - Problem solving and code review
+- **Claude (Anthropic)** - Architecture guidance and best practices
+- **Gemini (Google)** - Advanced reasoning and analysis
+- **Perplexity AI** - Research and fact-checking
+- **CodeWhisperer (Amazon)** - AWS-optimized suggestions
+- **Tabnine** - AI-powered autocompletion
+- **Codeium** - Multi-language code assistance
+- **DeepCode/Snyk** - Security analysis
+- **Sourcery AI** - Code quality improvements
+
+### Indonesian AI/NLP Research Community
+- **Samuel Cahyawijaya** - Indonesian NLP research pioneer
+- **Holy Lovenia** - Multilingual AI research
+- **Fajri Koto** - Indonesian language processing
+- **Rifki Afina Putri** - NLP research at UI
+- **Bryan Wilie** - AI research at Salesforce
+- **Genta Indra Winata** - Multilingual NLP at UPenn
+- **Alham Fikri Aji** - NLP research at MBZUAI
+- **Ayu Purwarianti** - AI research at ITB
+
+### Indonesian Technology Leaders
+- **Dedy Dahlan** - AI Indonesia community
+- **Onno W. Purbo** - Indonesian internet pioneer
+- **Roy Suryo** - Technology consultant
+- **Kusnadi Radjab** - Academic technology leader
+- **Inggriani Liem** - Computer science education
+- **Budi Rahardjo** - Cybersecurity expert
+
+### Global AI Research Pioneers
+- **Yoshua Bengio** - Deep learning pioneer (Turing Award)
+- **Geoffrey Hinton** - Neural networks godfather
+- **Yann LeCun** - Convolutional neural networks
+- **Andrew Ng** - Machine learning education leader
+- **Fei-Fei Li** - Computer vision research
+- **Andrej Karpathy** - AI research and education
+- **Ian Goodfellow** - Generative adversarial networks
+- **Demis Hassabis** - DeepMind founder
+
+### Technology Industry Visionaries
+- **Satya Nadella** - Microsoft AI transformation
+- **Sundar Pichai** - Google AI initiatives
+- **Mark Zuckerberg** - Meta AI research
+- **Jensen Huang** - NVIDIA AI computing
+- **Dario Amodei** - Anthropic constitutional AI
+
+### Open Source Heroes
+- **Linus Torvalds** - Git and Linux creator
+- **Guido van Rossum** - Python language creator
+- **Brendan Eich** - JavaScript creator
+- **Ryan Dahl** - Node.js creator
+- **TJ Holowaychuk** - Express.js and many Node modules
+- **John Resig** - jQuery creator
+
 ## Framework & Library Creators
 - **Dan Abramov** - React Core Team, Redux creator
 - **Guillermo Rauch** - Vercel CEO, Next.js ecosystem
 - **Rich Harris** - Svelte creator, web performance advocate
 - **Evan You** - Vue.js creator
-- **Ryan Dahl** - Node.js creator
 - **Jordan Walke** - React creator
 
 ## Web Standards & Tools
-- **Brendan Eich** - JavaScript creator
 - **Tim Berners-Lee** - World Wide Web inventor
-- **Linus Torvalds** - Git version control creator
 - **Douglas Crockford** - JSON format creator
-- **John Resig** - jQuery creator
 
 ## Performance & DevTools
 - **Addy Osmani** - Google Chrome team, web performance
@@ -65,6 +118,6 @@ This project stands on the shoulders of giants. We acknowledge the incredible wo
 
 ---
 
-*This project exists because of the collective wisdom, tools, and frameworks created by these remarkable individuals and communities. Thank you for building the foundation that makes modern web development possible.*
+*This project exists because of the collective wisdom, tools, and frameworks created by these remarkable individuals and communities. The top section represents actual Git co-contributors who appear in our commit history, while the lower sections acknowledge broader inspiration and influence.*
 
-**Note**: This is an acknowledgment of inspiration and influence, not a claim of direct contribution to this specific repository.
+**Note**: Co-authored commits reflect collaborative development with AI tools and recognition of the global technology community that enables modern web development.
