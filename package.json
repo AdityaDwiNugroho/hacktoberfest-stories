@@ -2,6 +2,12 @@
   "name": "bengkel-iwan-motor",
   "version": "1.0.0",
   "description": "Professional motorcycle workshop website",
+  "author": "Aditya Dwi Nugroho",
+  "contributors": [
+    "GitHub Copilot",
+    "ChatGPT (OpenAI)",
+    "Claude (Anthropic)"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -33,3 +33,10 @@ pnpm dev
 📍 Jl. Parangtritis Km 6.5, Yogyakarta  
 📞 +62 819-1553-9242  
 ⏰ Mon-Sat: 08:00-17:00, Sun: 08:00-12:00
+
+## Credits
+
+This project was built with assistance from:
+- **GitHub Copilot** - Code suggestions and autocompletion
+- **ChatGPT** - Development guidance and problem solving
+- **Claude** - Code review and optimization assistance
