@@ -5,12 +5,15 @@ import SEOHead from './components/SEOHead'
 import Analytics from './components/Analytics'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 
+// Font optimization suggested by GitHub Copilot
+
 const inter = Inter({ 
   subsets: ['latin'],
   display: 'swap',
   preload: true
 })
 
+// SEO metadata structure optimized by ChatGPT and Claude
 export const metadata: Metadata = {
   title: {
     default: 'Iwan Motor | Service Motor Terpercaya Yogyakarta',
