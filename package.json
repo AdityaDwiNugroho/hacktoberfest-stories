@@ -15,6 +15,28 @@
     "DeepCode (Snyk)",
     "Amazon CodeWhisperer"
   ],
+  "inspiration": [
+    "Dan Abramov (React Team)",
+    "Guillermo Rauch (Vercel)",
+    "Rich Harris (Svelte)",
+    "Evan You (Vue.js)",
+    "Ryan Dahl (Node.js)",
+    "Brendan Eich (JavaScript)",
+    "Jordan Walke (React Creator)",
+    "Sebastian McKenzie (Babel)",
+    "Tobias Koppers (Webpack)",
+    "Kent C. Dodds (Testing)",
+    "Addy Osmani (Performance)",
+    "Paul Irish (DevTools)",
+    "John Resig (jQuery)",
+    "Douglas Crockford (JSON)",
+    "Linus Torvalds (Git)",
+    "Tim Berners-Lee (Web)",
+    "Vitalik Buterin (Blockchain)",
+    "Jeff Bezos (AWS)",
+    "Satya Nadella (Microsoft)",
+    "Sundar Pichai (Google)"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
