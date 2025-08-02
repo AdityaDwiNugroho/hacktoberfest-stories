@@ -6,7 +6,14 @@
   "contributors": [
     "GitHub Copilot",
     "ChatGPT (OpenAI)",
-    "Claude (Anthropic)"
+    "Claude (Anthropic)",
+    "Gemini (Google)",
+    "Perplexity AI",
+    "GitHub Copilot Chat",
+    "Codeium",
+    "Tabnine",
+    "DeepCode (Snyk)",
+    "Amazon CodeWhisperer"
   ],
   "scripts": {
     "dev": "next dev",
