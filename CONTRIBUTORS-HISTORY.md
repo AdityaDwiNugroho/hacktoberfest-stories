@@ -8,6 +8,9 @@ This file serves to create commit history for additional AI contributors.
 - Claude
 - Gemini
 - Perplexity
+- CodeWhisperer
+- Tabnine
+- Codeium
 - And many more AI assistants
 
 ## Commit History Enhancement
