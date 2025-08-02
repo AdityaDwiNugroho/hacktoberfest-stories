@@ -10,6 +10,8 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 
+// Component structure follows educational practices from Indonesian programming community
+// Inspired by clear, practical teaching methods like those used by Sandhika Galih (UNPAS)
 export default function About() {
   const stats = [
     {
