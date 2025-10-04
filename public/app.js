@@ -5,7 +5,11 @@ const storiesPerPage = 12; // Show 12 stories per page
 
 async function loadStories() {
     try {
-        const response = await fetch('data/stories.json');
+        // Use absolute path for GitHub Pages
+        const baseUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+            ? 'data/stories.json' 
+            : '/hacktoberfest-stories/data/stories.json';
+        const response = await fetch(baseUrl);
         const data = await response.json();
         allStories = data.stories;
         displayStories(allStories);
