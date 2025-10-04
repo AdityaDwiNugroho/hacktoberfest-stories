@@ -39,6 +39,16 @@
   "title": "My Open Source Journey Started with Curiosity",
   "story": "I got interested in open source through programs like GSoC and Code4GovTech. However, due to a lack of experience at the time, I decided to start exploring GitHub and contributing on my own. My first real contribution was to the Medic organization, which is a part of Code4GovTech. After that, I contributed to WPRig and several other projects. These early steps helped me understand how open source works, and I’ve been learning ever since. It’s been a rewarding journey of growth, and I encourage beginners to start small and stay consistent.",
   "tags": ["beginner", "hacktoberfest", "first-contribution", "learning"]
-}
+},
+{
+    "id": 5,
+    "username": "HiddenKeyDev",
+    "name": "HiddenKeyDev",
+    "githubUrl": "https://github.com/HiddenKeyDev",
+    "date": "October 2025",
+    "title": "My First Contribution After Months of Tutorial Hell",
+    "story": "I've been learning React for about six months now. Mostly following tutorials on YouTube, building the same to-do apps and weather apps everyone builds, then abandoning them halfway through. My GitHub looks pretty empty because honestly, I never thought my code was good enough to push. I'd start projects, get stuck on something, Google it for hours, then just give up and start a new tutorial. Classic tutorial hell. When Hacktoberfest came around, I wanted to participate but every project I looked at seemed way too advanced. Then I found this one. Just adding a story to a JSON file. No complex algorithms, no fancy React components, just... sharing something real. And I still hesitated for three days before actually doing it. I kept thinking 'my story isn't interesting enough' or 'I haven't contributed to anything real yet so what do I even say?' But then I realized that IS my story - the hesitation, the self-doubt, the endless tutorials without actually building anything original. I'm not employed as a developer yet. I'm not even sure I'm good enough to apply for jobs. But I'm here, making my first contribution, even if it's small. Sometimes the hardest part isn't the code - it's believing your participation actually matters. So here it is. My first merged PR. Hopefully the first of many.",
+    "tags": ["beginner", "hacktoberfest", "first-contribution", "learning"]
+  }
   ]
 }
