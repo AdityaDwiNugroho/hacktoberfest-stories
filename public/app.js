@@ -5,7 +5,7 @@ const storiesPerPage = 12; // Show 12 stories per page
 
 async function loadStories() {
     try {
-        const response = await fetch('../data/stories.json');
+        const response = await fetch('data/stories.json');
         const data = await response.json();
         allStories = data.stories;
         displayStories(allStories);
