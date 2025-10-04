@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Source Stories - Hacktoberfest 2025</title>
     <meta name="description" content="Real stories from real contributors. Share your open source journey!">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -54,13 +55,19 @@
 
     <footer>
         <div class="container">
-            <p>Hacktoberfest 2025 • <a href="https://github.com/AdityaDwiNugroho/Workshop">Contribute on GitHub</a></p>
-            <a href="https://github.com/AdityaDwiNugroho/Workshop/graphs/contributors">
-                <img src="https://contrib.rocks/image?repo=AdityaDwiNugroho/Workshop" alt="Contributors" />
-            </a>
+            <h3 style="margin-bottom: 20px; color: #ed8936;">All Contributors</h3>
+            <p style="margin-bottom: 15px;">Thank you to everyone who has contributed to this project!</p>
+            <div id="contributorsGrid" class="contributors-grid">
+                <!-- Contributors will be loaded here -->
+            </div>
+            <p style="margin-top: 30px;">Hacktoberfest 2025 • <a href="https://github.com/AdityaDwiNugroho/Workshop">Contribute on GitHub</a></p>
         </div>
     </footer>
 
     <script src="app.js"></script>
+    
+    <!-- Custom cursor effect -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
 </body>
 </html>
