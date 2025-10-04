@@ -29,6 +29,16 @@
       "title": "My First Open Source Contribution",
       "story": "This was my first time contributing to open source! I was nervous at first, but the process was really simple. I just added my story to the JSON file and created a pull request. The maintainer was super helpful and merged it quickly. Now I feel confident to contribute to more projects!",
       "tags": ["beginner", "first-contribution", "hacktoberfest"]
-    }
+    },
+    {
+  "id": 4,
+  "username": "singhcod3r",
+  "name": "Ayush Singh",
+  "githubUrl": "https://github.com/SinghCod3r",
+  "date": "October 2025",
+  "title": "My Open Source Journey Started with Curiosity",
+  "story": "I got interested in open source through programs like GSoC and Code4GovTech. However, due to a lack of experience at the time, I decided to start exploring GitHub and contributing on my own. My first real contribution was to the Medic organization, which is a part of Code4GovTech. After that, I contributed to WPRig and several other projects. These early steps helped me understand how open source works, and I’ve been learning ever since. It’s been a rewarding journey of growth, and I encourage beginners to start small and stay consistent.",
+  "tags": ["beginner", "hacktoberfest", "first-contribution", "learning"]
+}
   ]
 }
