@@ -1,22 +1,42 @@
-# Dependencies
-node_modules
-/.pnp
-.pnp.js
+# OS generated files# Dependencies
+
+.DS_Storenode_modules
+
+Thumbs.db/.pnp
+
+desktop.ini.pnp.js
+
 .yarn/install-state.gz
 
-# Testing
-/coverage
+# IDE and editor files
 
-# Next.js
-/.next/
+.vscode/# Testing
+
+.idea//coverage
+
+*.swp
+
+*.swo# Next.js
+
+*~/.next/
+
 /out/
 
-# Production
-/build
+# Temporary files
+
+*.tmp# Production
+
+*.temp/build
+
+*.log
 
 # Misc
-.DS_Store
-*.pem
+
+# Personal notes (feel free to keep your own notes locally).DS_Store
+
+notes.txt*.pem
+
+TODO.txt
 
 # Debug
 npm-debug.log*
