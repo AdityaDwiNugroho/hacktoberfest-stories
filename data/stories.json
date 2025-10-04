@@ -1,0 +1,24 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "username": "AdityaDwiNugroho",
+      "name": "Aditya Dwi Nugroho",
+      "githubUrl": "https://github.com/AdityaDwiNugroho",
+      "date": "October 2025",
+      "title": "Starting This Project",
+      "story": "I created this project to help people practice their first contributions during Hacktoberfest. I wanted to make something simple where anyone could participate, regardless of their coding skills.",
+      "tags": ["creator", "hacktoberfest", "first-project"]
+    },
+    {
+      "id": 2,
+      "username": "example-user",
+      "name": "Example Contributor",
+      "githubUrl": "https://github.com/example-user",
+      "date": "October 2025",
+      "title": "My First Open Source Contribution",
+      "story": "This was my first time contributing to open source! I was nervous at first, but the process was really simple. I just added my story to the JSON file and created a pull request. The maintainer was super helpful and merged it quickly. Now I feel confident to contribute to more projects!",
+      "tags": ["beginner", "first-contribution", "hacktoberfest"]
+    }
+  ]
+}
