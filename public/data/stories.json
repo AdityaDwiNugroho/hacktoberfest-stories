@@ -12,6 +12,16 @@
     },
     {
       "id": 2,
+      "username": "Lightningxyz",
+      "name": "Karan R",
+      "githubUrl": "https://github.com/Lightningxyz",
+      "date": "October 2025",
+      "title": "My Open Source Journey",
+      "story": "I am pretty new to contributing to open source, but have been a fan of open source software forever. The idea that a group of people can collectively create products that are sometimes close to or even better than mega corporations is what surprised me. This motivated me to learn how to contribute to open source and here I am, trying to slowly learn various aspects of contributing.",
+      "tags": ["beginner", "learning", "hacktoberfest"]
+    },
+    {
+      "id": 3,
       "username": "example-user",
       "name": "Example Contributor",
       "githubUrl": "https://github.com/example-user",
