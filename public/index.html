@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Stories - Hacktoberfest Contributors</title>
+    <meta name="description" content="Share your open source contribution story and inspire others to get started!">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Open Source Stories</h1>
+            <p>Real stories from real contributors. Share yours and inspire others!</p>
+            <a href="https://github.com/AdityaDwiNugroho/Workshop" class="cta-button" target="_blank">
+                Contribute Your Story
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search by name, username, or tags..."
+                class="search-input"
+            >
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <h3 id="totalStories">0</h3>
+                <p>Stories Shared</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalContributors">0</h3>
+                <p>Contributors</p>
+            </div>
+            <div class="stat-card">
+                <h3>Hacktoberfest</h3>
+                <p>2025</p>
+            </div>
+        </section>
+
+        <section id="storiesContainer" class="stories-grid">
+            <!-- Stories will be loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Part of Hacktoberfest 2025 | <a href="https://github.com/AdityaDwiNugroho/Workshop">Contribute on GitHub</a></p>
+            <a href="https://github.com/AdityaDwiNugroho/Workshop/graphs/contributors">
+                <img src="https://contrib.rocks/image?repo=AdityaDwiNugroho/Workshop" alt="Contributors" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

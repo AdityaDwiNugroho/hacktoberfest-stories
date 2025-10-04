@@ -1,66 +1,23 @@
 {
-  "name": "bengkel-iwan-motor",
+  "name": "awesome-beginner-projects",
   "version": "1.0.0",
-  "description": "Professional motorcycle workshop website",
+  "description": "A curated collection of beginner-friendly resources, projects, and guides for anyone starting their open-source journey",
   "author": "Aditya Dwi Nugroho",
-  "contributors": [
-    "GitHub Copilot",
-    "ChatGPT (OpenAI)",
-    "Claude (Anthropic)",
-    "Gemini (Google)",
-    "Perplexity AI",
-    "GitHub Copilot Chat",
-    "Codeium",
-    "Tabnine",
-    "DeepCode (Snyk)",
-    "Amazon CodeWhisperer"
-  ],
-  "inspiration": [
-    "Dan Abramov (React Team)",
-    "Guillermo Rauch (Vercel)",
-    "Rich Harris (Svelte)",
-    "Evan You (Vue.js)",
-    "Ryan Dahl (Node.js)",
-    "Brendan Eich (JavaScript)",
-    "Jordan Walke (React Creator)",
-    "Sebastian McKenzie (Babel)",
-    "Tobias Koppers (Webpack)",
-    "Kent C. Dodds (Testing)",
-    "Addy Osmani (Performance)",
-    "Paul Irish (DevTools)",
-    "John Resig (jQuery)",
-    "Douglas Crockford (JSON)",
-    "Linus Torvalds (Git)",
-    "Tim Berners-Lee (Web)",
-    "Vitalik Buterin (Blockchain)",
-    "Jeff Bezos (AWS)",
-    "Satya Nadella (Microsoft)",
-    "Sundar Pichai (Google)"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdityaDwiNugroho/Workshop"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "open-source",
+    "beginner-friendly",
+    "first-contributions",
+    "awesome-list",
+    "resources",
+    "learning"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "install": "pnpm install",
-    "clean": "rm -rf node_modules pnpm-lock.yaml && pnpm install"
+    "test": "echo \"No tests yet - contributions welcome!\""
   },
-  "dependencies": {
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@vercel/analytics": "^1.5.0",
-    "autoprefixer": "^10.4.0",
-    "lucide-react": "^0.300.0",
-    "next": "^14.0.0",
-    "postcss": "^8.4.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "tailwindcss": "^3.4.0",
-    "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0"
-  }
+  "license": "MIT"
 }
