@@ -1,66 +1,130 @@
-# Open Source Stories# Awesome First Contributions# Awesome Beginner Projects# 🎃 Hacktoberfest Starter Kit# Iwan Motor
+# Open Source Stories# Open Source Stories# Awesome First Contributions# Awesome Beginner Projects# 🎃 Hacktoberfest Starter Kit# Iwan Motor
 
 
 
-> Share your open source contribution story and inspire others!
+Share your open source contribution experience and inspire others!
 
 
+
+[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-blueviolet)](https://hacktoberfest.com)> Share your open source contribution story and inspire others!
+
+[![Contributors](https://img.shields.io/github/contributors/AdityaDwiNugroho/Workshop)](https://github.com/AdityaDwiNugroho/Workshop/graphs/contributors)
+
+
+
+## What is This?
 
 A Hacktoberfest-friendly project where contributors share their experiences, challenges, and successes in open source. All stories are displayed on a beautiful website!A simple, beginner-friendly repository where you can practice making your first pull request. Just add resources to this README!
 
+A community website where people share their real experiences contributing to open source. Add your story and it appears live on the website with your GitHub profile picture!
 
+
+
+**Live Website:** `https://adityadwinugroho.github.io/Workshop/` (after you enable GitHub Pages)
 
 **Live Website:** [Your GitHub Pages URL will be here]
 
-
-
-## What is This?## How to Contribute (Super Easy!)A curated collection of resources, projects, and guides for anyone starting their open-source journey. No framework knowledge required - everyone is welcome to contribute!
-
-
-
-This is a community-driven collection of real stories from people contributing to open source. When you add your story, it automatically appears on the website with your GitHub profile picture!
+## How to Contribute
 
 
 
-## How to Contribute1. Click the pencil icon at the top of this README
+1. Edit [`data/stories.json`](data/stories.json)
+
+2. Add your story using this format:## What is This?## How to Contribute (Super Easy!)A curated collection of resources, projects, and guides for anyone starting their open-source journey. No framework knowledge required - everyone is welcome to contribute!
 
 
 
-### Step 1: Add Your Story2. Add your resource to one of the lists below
-
-
-
-Edit the `data/stories.json` file and add your entry:3. Scroll down and click "Propose changes"## What is This?<div align="center">> Workshop website in Yogyakarta
-
-
-
-```json4. Click "Create pull request"
+```json
 
 {
 
-  "id": 3,
+  "id": 3,This is a community-driven collection of real stories from people contributing to open source. When you add your story, it automatically appears on the website with your GitHub profile picture!
 
   "username": "your-github-username",
 
-  "name": "Your Name",Done! You just made a contribution!
+  "name": "Your Name",
 
   "githubUrl": "https://github.com/your-username",
 
-  "date": "October 2025",This repository is a community-driven list of:
+  "date": "October 2025",## How to Contribute1. Click the pencil icon at the top of this README
 
   "title": "Your Story Title",
 
-  "story": "Your experience here. Share what motivated you, what you learned, challenges you faced, or advice for beginners. Minimum 50 words, maximum 500 words.",## Beginner-Friendly Projects
+  "story": "Share your experience! What motivated you? What did you learn? Challenges? Tips for beginners? (50-1000 words)",
 
   "tags": ["beginner", "hacktoberfest", "first-contribution"]
 
-}- Beginner-friendly open-source projects
+}### Step 1: Add Your Story2. Add your resource to one of the lists below
 
 ```
 
+
+
+3. Create a Pull Request
+
+4. Your story appears on the website when merged!Edit the `data/stories.json` file and add your entry:3. Scroll down and click "Propose changes"## What is This?<div align="center">> Workshop website in Yogyakarta
+
+
+
+**Easy way:** Click the pencil icon on `data/stories.json` → Edit → "Propose changes" → Done!
+
+
+
+## Rules```json4. Click "Create pull request"
+
+
+
+- **50-1000 words** minimum/maximum{
+
+- Be genuine and helpful
+
+- No spam or plagiarism  "id": 3,
+
+- Use appropriate tags
+
+  "username": "your-github-username",
+
+## For Hacktoberfest
+
+  "name": "Your Name",Done! You just made a contribution!
+
+This repo is Hacktoberfest-ready:
+
+- Auto-labels PRs as `hacktoberfest-accepted`  "githubUrl": "https://github.com/your-username",
+
+- Quality contributions welcome
+
+- Clear guidelines  "date": "October 2025",This repository is a community-driven list of:
+
+- Active maintainer
+
+  "title": "Your Story Title",
+
+## Contributors
+
+  "story": "Your experience here. Share what motivated you, what you learned, challenges you faced, or advice for beginners. Minimum 50 words, maximum 500 words.",## Beginner-Friendly Projects
+
+<a href="https://github.com/AdityaDwiNugroho/Workshop/graphs/contributors">
+
+  <img src="https://contrib.rocks/image?repo=AdityaDwiNugroho/Workshop" />  "tags": ["beginner", "hacktoberfest", "first-contribution"]
+
+</a>
+
+}- Beginner-friendly open-source projects
+
+## License
+
+```
+
+MIT - Free to use and share
+
 Add projects here that are good for first-time contributors:
 
+## Questions?
+
 ### Step 2: Submit Pull Request
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 - Learning resources for Git and GitHub![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-blueviolet)A modern, SEO-optimized website for motorcycle repair services.
 

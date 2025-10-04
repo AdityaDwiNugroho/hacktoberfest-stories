@@ -5,7 +5,7 @@ Thank you for wanting to share your story! This guide will help you contribute.
 ## What We're Looking For
 
 **Good contributions:**
-- Genuine personal experiences (50-500 words)
+- Genuine personal experiences (50-1000 words)
 - Helpful advice for beginners
 - Overcoming challenges stories
 - First contribution experiences
@@ -88,7 +88,7 @@ Thank you for wanting to share your story! This guide will help you contribute.
   "githubUrl": "string",     // Your GitHub profile URL
   "date": "string",          // Month Year (e.g., "October 2025")
   "title": "string",         // Story title (3-10 words)
-  "story": "string",         // Your story (50-500 words)
+  "story": "string",         // Your story (50-1000 words)
   "tags": ["array"]          // 2-5 relevant tags
 }
 ```
@@ -97,8 +97,9 @@ Thank you for wanting to share your story! This guide will help you contribute.
 
 **Length:**
 - Minimum: 50 words
-- Maximum: 500 words
-- Sweet spot: 150-300 words
+- Maximum: 1000 words
+- Sweet spot: 150-400 words
+- Longer stories get a "Read More" button automatically
 
 **What to write:**
 - Your background (student, developer, career changer, etc.)
