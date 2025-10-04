@@ -118,7 +118,7 @@ Want to see the website locally?
 All contributors are automatically displayed on the website!
 
 <a href="https://github.com/AdityaDwiNugroho/hacktoberfest-stories/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AdityaDwiNugroho/hacktoberfest-stories" />
+  <img src="https://readme-contribs.as93.net/contributors/AdityaDwiNugroho/hacktoberfest-stories?limit=100&perRow=10" />
 </a>
 
 ## Questions?
