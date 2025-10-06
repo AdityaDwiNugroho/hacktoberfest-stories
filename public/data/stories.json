@@ -119,6 +119,16 @@
     "title": "Democratizing AI Through Open Education",
     "story": "I've always believed that AI and deep learning should be accessible to everyone, not just researchers at big tech companies. That's why I've open sourced educational tools like micrograd and nanoGPT - these aren't production frameworks, they're learning tools. By stripping neural networks down to their bare essentials and implementing them from scratch, people can actually understand what's happening under the hood. Open source in AI is critical because these technologies are too important to be locked behind closed doors. When I was at Tesla and OpenAI, I saw how powerful these tools could be. But the real power comes when everyone can learn, experiment, and contribute. My YouTube lectures and GitHub repos are my way of giving back - showing people that you don't need a PhD or corporate resources to understand and build AI systems. You just need curiosity and access to open knowledge.",
     "tags": ["ai", "machine-learning", "education", "neural-networks", "deep-learning"]
+  },
+  {
+    "id": 13,
+    "username": "BrendanEich",
+    "name": "Brendan Eich",
+    "githubUrl": "https://github.com/BrendanEich",
+    "date": "October 2025",
+    "title": "Creating JavaScript in 10 Days and 25 Years of Evolution",
+    "story": "I created JavaScript in 10 days at Netscape in 1995, and it's been evolving ever since. People love to criticize its quirks, and honestly, some of that criticism is fair - I had to work fast and made compromises. But what amazes me is how the community took this scrappy little language and turned it into the foundation of modern web development. Open standards and open source saved JavaScript. TC39, Node.js, npm, frameworks like React and Vue - none of this was my doing alone. The community took JavaScript far beyond what I imagined. The lesson here is that your initial implementation doesn't have to be perfect. What matters is building something extensible that the community can improve. JavaScript succeeded not because it was perfectly designed, but because it was open enough to evolve. That's the power of open source and open standards working together.",
+    "tags": ["creator", "javascript", "web", "language-design", "standards"]
   }
   ]
 }
