@@ -89,6 +89,16 @@
     "title": "From Express to Go: A Journey of Exploration",
     "story": "I've created hundreds of open source projects - Express, Commander, Mocha, and countless others. People ask how I stay productive, but honestly, it's about curiosity more than discipline. I build tools because I want to explore ideas. Express came from wanting a minimal web framework for Node. Then I got curious about Go and built similar tools there. Some projects took off, others didn't, and that's okay. The real value isn't in any single project - it's in the collective learning and the community that forms around solving problems together. My advice: Don't get too attached to your code. Build it, ship it, move on to the next idea. Let the community decide what's valuable. Some of my weekend experiments became critical infrastructure for millions of developers. You never know what will resonate.",
     "tags": ["creator", "javascript", "nodejs", "express", "golang"]
+  },
+  {
+    "id": 10,
+    "username": "matz",
+    "name": "Yukihiro Matsumoto",
+    "githubUrl": "https://github.com/matz",
+    "date": "October 2025",
+    "title": "Designing a Language for Human Happiness",
+    "story": "When I created Ruby, I wanted a language that made me happy. Not fast, not powerful - happy. I believed that developer joy was as important as technical efficiency. Many people thought this was naive, but the community proved them wrong. Ruby's expressiveness and the principle of least surprise resonated with developers who were tired of fighting their tools. Open source showed me that when you optimize for humans instead of machines, something magical happens. People don't just use your software - they fall in love with it. They contribute, evangelize, and build entire ecosystems around it. Ruby on Rails amplified this beyond my wildest dreams. The lesson: technical excellence matters, but never forget that code is written by humans for humans. Make it joyful.",
+    "tags": ["creator", "ruby", "language-design", "philosophy"]
   }
   ]
 }
