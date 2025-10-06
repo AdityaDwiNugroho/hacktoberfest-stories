@@ -129,6 +129,16 @@
     "title": "Creating JavaScript in 10 Days and 25 Years of Evolution",
     "story": "I created JavaScript in 10 days at Netscape in 1995, and it's been evolving ever since. People love to criticize its quirks, and honestly, some of that criticism is fair - I had to work fast and made compromises. But what amazes me is how the community took this scrappy little language and turned it into the foundation of modern web development. Open standards and open source saved JavaScript. TC39, Node.js, npm, frameworks like React and Vue - none of this was my doing alone. The community took JavaScript far beyond what I imagined. The lesson here is that your initial implementation doesn't have to be perfect. What matters is building something extensible that the community can improve. JavaScript succeeded not because it was perfectly designed, but because it was open enough to evolve. That's the power of open source and open standards working together.",
     "tags": ["creator", "javascript", "web", "language-design", "standards"]
+  },
+  {
+    "id": 14,
+    "username": "coolsnowwolf",
+    "name": "Lean",
+    "githubUrl": "https://github.com/coolsnowwolf",
+    "date": "October 2025",
+    "title": "Building OpenWrt for the Community",
+    "story": "I maintain Lede, an OpenWrt firmware that's widely used in China and around the world. What started as customizing firmware for my own router became something thousands of people rely on daily. Open source lets me share improvements that make routers more powerful and stable. The community contributes plugins, fixes bugs, and helps test on different hardware. It's amazing how a project focused on such specific hardware can bring together people from different countries who just want better control over their network devices. Every commit makes someone's internet faster or more secure, and that's rewarding.",
+    "tags": ["firmware", "openwrt", "networking", "embedded", "maintainer"]
   }
   ]
 }
