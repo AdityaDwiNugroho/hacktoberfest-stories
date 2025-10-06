@@ -79,6 +79,16 @@
     "title": "Convention Over Configuration Changed Everything",
     "story": "When I extracted Ruby on Rails from Basecamp, I was just trying to avoid repeating myself. I was tired of writing the same boilerplate for every web app. The insight was simple: most web applications need the same things, so why not make those the defaults? Convention over configuration wasn't about being clever - it was about being lazy in the right way. Open source gave Rails wings I could never have given it alone. Thousands of developers contributed patterns, gems, and ideas that made it exponentially better. What I learned: Strong opinions, weakly held. Be opinionated in your design, but listen when the community shows you a better way. The web needed Rails-like frameworks, and Rails needed the community. It's a beautiful symbiosis.",
     "tags": ["creator", "ruby", "rails", "web", "framework"]
+  },
+  {
+    "id": 9,
+    "username": "tj",
+    "name": "TJ Holowaychuk",
+    "githubUrl": "https://github.com/tj",
+    "date": "October 2025",
+    "title": "From Express to Go: A Journey of Exploration",
+    "story": "I've created hundreds of open source projects - Express, Commander, Mocha, and countless others. People ask how I stay productive, but honestly, it's about curiosity more than discipline. I build tools because I want to explore ideas. Express came from wanting a minimal web framework for Node. Then I got curious about Go and built similar tools there. Some projects took off, others didn't, and that's okay. The real value isn't in any single project - it's in the collective learning and the community that forms around solving problems together. My advice: Don't get too attached to your code. Build it, ship it, move on to the next idea. Let the community decide what's valuable. Some of my weekend experiments became critical infrastructure for millions of developers. You never know what will resonate.",
+    "tags": ["creator", "javascript", "nodejs", "express", "golang"]
   }
   ]
 }
