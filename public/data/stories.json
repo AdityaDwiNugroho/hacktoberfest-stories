@@ -99,6 +99,16 @@
     "title": "Designing a Language for Human Happiness",
     "story": "When I created Ruby, I wanted a language that made me happy. Not fast, not powerful - happy. I believed that developer joy was as important as technical efficiency. Many people thought this was naive, but the community proved them wrong. Ruby's expressiveness and the principle of least surprise resonated with developers who were tired of fighting their tools. Open source showed me that when you optimize for humans instead of machines, something magical happens. People don't just use your software - they fall in love with it. They contribute, evangelize, and build entire ecosystems around it. Ruby on Rails amplified this beyond my wildest dreams. The lesson: technical excellence matters, but never forget that code is written by humans for humans. Make it joyful.",
     "tags": ["creator", "ruby", "language-design", "philosophy"]
+  },
+  {
+    "id": 11,
+    "username": "shiffman",
+    "name": "Daniel Shiffman",
+    "githubUrl": "https://github.com/shiffman",
+    "date": "October 2025",
+    "title": "Teaching Through Code and Community",
+    "story": "My journey in open source has always been intertwined with education. Through Processing, p5.js, and YouTube tutorials, I've tried to make creative coding accessible to everyone. What I love about open source in education is that the code itself becomes a teaching tool. Students can read it, modify it, break it, and learn from it. The Coding Train community taught me that the best way to learn is by doing - and by sharing your mistakes publicly. I mess up in my videos all the time, and that's the point. It shows that programming is iterative, messy, and human. Open source is the perfect medium for this kind of learning because everything is transparent. You can see the evolution of ideas, the bugs, the fixes, the discussions. It's not just about the final product - it's about the journey.",
+    "tags": ["educator", "creative-coding", "processing", "p5js", "teaching"]
   }
   ]
 }
