@@ -69,6 +69,16 @@
     "title": "Lessons from Building Runtime Environments",
     "story": "Creating Node.js taught me that sometimes the best ideas come from questioning established patterns. I wanted JavaScript on the server because V8 made it possible, and the async I/O model felt right. Years later with Deno, I got to revisit those decisions with hindsight. The mistakes I made with Node.js - the module system, security model, build complexity - became opportunities to do better. Open source is iterative. You release something, the community uses it in ways you never imagined, and you learn. Node became bigger than I ever expected, and that taught me humility. Your code will outlive your involvement in it. Make it count, but also be willing to let go and let others steer. The most rewarding part isn't the downloads or stars - it's seeing people build amazing things you never thought possible.",
     "tags": ["creator", "javascript", "nodejs", "deno", "runtime"]
+  },
+  {
+    "id": 8,
+    "username": "dhh",
+    "name": "David Heinemeier Hansson",
+    "githubUrl": "https://github.com/dhh",
+    "date": "October 2025",
+    "title": "Convention Over Configuration Changed Everything",
+    "story": "When I extracted Ruby on Rails from Basecamp, I was just trying to avoid repeating myself. I was tired of writing the same boilerplate for every web app. The insight was simple: most web applications need the same things, so why not make those the defaults? Convention over configuration wasn't about being clever - it was about being lazy in the right way. Open source gave Rails wings I could never have given it alone. Thousands of developers contributed patterns, gems, and ideas that made it exponentially better. What I learned: Strong opinions, weakly held. Be opinionated in your design, but listen when the community shows you a better way. The web needed Rails-like frameworks, and Rails needed the community. It's a beautiful symbiosis.",
+    "tags": ["creator", "ruby", "rails", "web", "framework"]
   }
   ]
 }
