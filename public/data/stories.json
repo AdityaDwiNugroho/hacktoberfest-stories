@@ -139,6 +139,16 @@
     "title": "Building OpenWrt for the Community",
     "story": "I maintain Lede, an OpenWrt firmware that's widely used in China and around the world. What started as customizing firmware for my own router became something thousands of people rely on daily. Open source lets me share improvements that make routers more powerful and stable. The community contributes plugins, fixes bugs, and helps test on different hardware. It's amazing how a project focused on such specific hardware can bring together people from different countries who just want better control over their network devices. Every commit makes someone's internet faster or more secure, and that's rewarding.",
     "tags": ["firmware", "openwrt", "networking", "embedded", "maintainer"]
+  },
+  {
+    "id": 15,
+    "username": "yyx990803",
+    "name": "Evan You",
+    "githubUrl": "https://github.com/yyx990803",
+    "date": "October 2025",
+    "title": "From Side Project to Full-Time Open Source",
+    "story": "Vue.js started as a side project when I was working at Google. I wanted a simpler alternative to Angular for personal projects. I shared it on GitHub, not expecting much. The response was overwhelming. What I learned: you don't need permission to start. Build something you need, make it open source, and see if others find it useful. The hardest part was transitioning to full-time open source through Patreon and sponsorships. It felt risky leaving a stable job, but the community support made it possible. Now Vue supports millions of developers, and I get to work on what I love every day. Open source isn't just about code - it's about building sustainable communities.",
+    "tags": ["creator", "vue", "javascript", "framework", "full-time-oss"]
   }
   ]
 }
