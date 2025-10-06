@@ -109,6 +109,16 @@
     "title": "Teaching Through Code and Community",
     "story": "My journey in open source has always been intertwined with education. Through Processing, p5.js, and YouTube tutorials, I've tried to make creative coding accessible to everyone. What I love about open source in education is that the code itself becomes a teaching tool. Students can read it, modify it, break it, and learn from it. The Coding Train community taught me that the best way to learn is by doing - and by sharing your mistakes publicly. I mess up in my videos all the time, and that's the point. It shows that programming is iterative, messy, and human. Open source is the perfect medium for this kind of learning because everything is transparent. You can see the evolution of ideas, the bugs, the fixes, the discussions. It's not just about the final product - it's about the journey.",
     "tags": ["educator", "creative-coding", "processing", "p5js", "teaching"]
+  },
+  {
+    "id": 12,
+    "username": "karpathy",
+    "name": "Andrej Karpathy",
+    "githubUrl": "https://github.com/karpathy",
+    "date": "October 2025",
+    "title": "Democratizing AI Through Open Education",
+    "story": "I've always believed that AI and deep learning should be accessible to everyone, not just researchers at big tech companies. That's why I've open sourced educational tools like micrograd and nanoGPT - these aren't production frameworks, they're learning tools. By stripping neural networks down to their bare essentials and implementing them from scratch, people can actually understand what's happening under the hood. Open source in AI is critical because these technologies are too important to be locked behind closed doors. When I was at Tesla and OpenAI, I saw how powerful these tools could be. But the real power comes when everyone can learn, experiment, and contribute. My YouTube lectures and GitHub repos are my way of giving back - showing people that you don't need a PhD or corporate resources to understand and build AI systems. You just need curiosity and access to open knowledge.",
+    "tags": ["ai", "machine-learning", "education", "neural-networks", "deep-learning"]
   }
   ]
 }
