@@ -59,6 +59,16 @@
     "title": "Building Tools That Spark Joy",
     "story": "My open source journey has been about creating tools that I wish existed. It started with small utilities to solve my own problems, then evolved into projects like Vitest, Slidev, and UnoCSS. What drives me is the idea of developer experience - making tools that are not just functional, but delightful to use. I believe good DX isn't just about performance or features, it's about the small details that make developers smile. Every project I work on, whether it's a testing framework or a presentation tool, starts with the question: 'How can this be more enjoyable?' Open source taught me that when you build something useful and share it freely, amazing things happen. People contribute, iterate, and build upon your ideas in ways you never imagined. Hacktoberfest represents this spirit perfectly - it's about collaboration, learning, and giving back to the community that has given us so much. My advice: don't wait for the perfect idea. Build what you need, share it openly, and be surprised by what the community creates together.",
     "tags": ["advanced", "maintainer", "vue", "vite", "typescript", "tooling"]
+  },
+  {
+    "id": 7,
+    "username": "ry",
+    "name": "Ryan Dahl",
+    "githubUrl": "https://github.com/ry",
+    "date": "October 2025",
+    "title": "Lessons from Building Runtime Environments",
+    "story": "Creating Node.js taught me that sometimes the best ideas come from questioning established patterns. I wanted JavaScript on the server because V8 made it possible, and the async I/O model felt right. Years later with Deno, I got to revisit those decisions with hindsight. The mistakes I made with Node.js - the module system, security model, build complexity - became opportunities to do better. Open source is iterative. You release something, the community uses it in ways you never imagined, and you learn. Node became bigger than I ever expected, and that taught me humility. Your code will outlive your involvement in it. Make it count, but also be willing to let go and let others steer. The most rewarding part isn't the downloads or stars - it's seeing people build amazing things you never thought possible.",
+    "tags": ["creator", "javascript", "nodejs", "deno", "runtime"]
   }
   ]
 }
