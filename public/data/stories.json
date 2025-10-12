@@ -151,4 +151,14 @@
     "tags": ["creator", "vue", "javascript", "framework", "full-time-oss"]
   }
   ]
+},
+{
+  "id": 16,
+  "username": "sudhanshu1404",
+  "name": "Sudhanshu Chaudhary",
+  "githubUrl": "https://github.com/sudhanshu1404",
+  "date": "October 2025",
+  "title": "From Curiosity to Craft",
+  "story": "I’m Sudhanshu Chaudhary, a Computer Science student at Bundelkhand University, Jhansi. My GitHub started as a simple place to learn — to explore Django, Python, Java, and machine learning through hands-on projects. I never imagined it would become such a central part of my growth. I built web apps like employee management systems, machine learning models for prediction, and Android mini-games like Tic Tac Toe. Each small project taught me more than any tutorial could. The breakthrough came when others began using and commenting on my code. Suddenly, I wasn’t just building for myself — I was solving problems for others. That shift was powerful. I faced challenges too: balancing coding with academics, learning to accept critique, pushing through self-doubt. But I kept shipping, kept iterating. Today, open source and personal projects are my strongest learning tools. They taught me that growth doesn’t require perfection — just persistence. My goal now is to build solutions that impact real lives, especially in data-driven health tech. I want to contribute, collaborate, and help others rise with me. GitHub is no longer just my portfolio — it’s my journey in code.",
+  "tags": ["developer", "python", "django", "student-projects", "machine-learning", "open-source"]
 }
