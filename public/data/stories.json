@@ -151,4 +151,15 @@
     "tags": ["creator", "vue", "javascript", "framework", "full-time-oss"]
   }
   ]
+}, 
+{
+  "id": 17,
+  "username": "Amarjeet9305",
+  "name": "Amarjeet",
+  "githubUrl": "https://github.com/Amarjeet9305",
+  "date": "October 2025",
+  "title": "From Passion Projects to Purposeful Code",
+  "story": "I’m Amarjeet, a B.Tech Computer Science student driven by curiosity and a deep interest in machine learning, web development, and building solutions that matter. My GitHub began as a space to test ideas — from basic Python scripts to gesture-controlled tools and ERP systems. I didn’t wait for permission to start. I built what intrigued me. One project led to another. Before I knew it, someone messaged me asking if they could use my code in their application. That moment shifted my mindset. My personal learning tools were becoming public resources. Transitioning from just 'coding for fun' to building meaningful, open tools wasn’t easy. It meant learning in the open, facing critiques, managing college responsibilities — and still showing up to write better code. But with every commit, I got better. Today, I focus on building data-driven apps, exploring AI, and sharing what I learn. My dream is to contribute to health tech, develop tools with real impact, and help others grow along the way. Open source taught me that you don’t need to be perfect — you just need to begin. My GitHub is the record of that journey.",
+  "tags": ["student", "developer", "python", "machine-learning", "fullstack", "open-source", "healthtech"]
 }
+
