@@ -8,7 +8,11 @@
       "date": "October 2025",
       "title": "Starting This Project",
       "story": "I created this project to help people practice their first contributions during Hacktoberfest. I wanted to make something simple where anyone could participate, regardless of their coding skills.",
-      "tags": ["creator", "hacktoberfest", "first-project"]
+      "tags": [
+        "creator",
+        "hacktoberfest",
+        "first-project"
+      ]
     },
     {
       "id": 2,
@@ -18,7 +22,11 @@
       "date": "October 2025",
       "title": "My Open Source Journey",
       "story": "I am pretty new to contributing to open source, but have been a fan of open source software forever. The idea that a group of people can collectively create products that are sometimes close to or even better than mega corporations is what surprised me. This motivated me to learn how to contribute to open source and here I am, trying to slowly learn various aspects of contributing.",
-      "tags": ["beginner", "learning", "hacktoberfest"]
+      "tags": [
+        "beginner",
+        "learning",
+        "hacktoberfest"
+      ]
     },
     {
       "id": 3,
@@ -28,165 +36,266 @@
       "date": "October 2025",
       "title": "My First Open Source Contribution",
       "story": "This was my first time contributing to open source! I was nervous at first, but the process was really simple. I just added my story to the JSON file and created a pull request. The maintainer was super helpful and merged it quickly. Now I feel confident to contribute to more projects!",
-      "tags": ["beginner", "first-contribution", "hacktoberfest"]
+      "tags": [
+        "beginner",
+        "first-contribution",
+        "hacktoberfest"
+      ]
     },
     {
-  "id": 4,
-  "username": "singhcod3r",
-  "name": "Ayush Singh",
-  "githubUrl": "https://github.com/SinghCod3r",
-  "date": "October 2025",
-  "title": "My Open Source Journey Started with Curiosity",
-  "story": "I got interested in open source through programs like GSoC and Code4GovTech. However, due to a lack of experience at the time, I decided to start exploring GitHub and contributing on my own. My first real contribution was to the Medic organization, which is a part of Code4GovTech. After that, I contributed to WPRig and several other projects. These early steps helped me understand how open source works, and I’ve been learning ever since. It’s been a rewarding journey of growth, and I encourage beginners to start small and stay consistent.",
-  "tags": ["beginner", "hacktoberfest", "first-contribution", "learning"]
-},
-{
-    "id": 5,
-    "username": "HiddenKeyDev",
-    "name": "HiddenKeyDev",
-    "githubUrl": "https://github.com/HiddenKeyDev",
-    "date": "October 2025",
-    "title": "My First Contribution After Months of Tutorial Hell",
-    "story": "I've been learning React for about six months now. Mostly following tutorials on YouTube, building the same to-do apps and weather apps everyone builds, then abandoning them halfway through. My GitHub looks pretty empty because honestly, I never thought my code was good enough to push. I'd start projects, get stuck on something, Google it for hours, then just give up and start a new tutorial. Classic tutorial hell. When Hacktoberfest came around, I wanted to participate but every project I looked at seemed way too advanced. Then I found this one. Just adding a story to a JSON file. No complex algorithms, no fancy React components, just... sharing something real. And I still hesitated for three days before actually doing it. I kept thinking 'my story isn't interesting enough' or 'I haven't contributed to anything real yet so what do I even say?' But then I realized that IS my story - the hesitation, the self-doubt, the endless tutorials without actually building anything original. I'm not employed as a developer yet. I'm not even sure I'm good enough to apply for jobs. But I'm here, making my first contribution, even if it's small. Sometimes the hardest part isn't the code - it's believing your participation actually matters. So here it is. My first merged PR. Hopefully the first of many.",
-    "tags": ["beginner", "hacktoberfest", "first-contribution", "learning"]
-  },
-  {
-    "id": 6,
-    "username": "antfu",
-    "name": "Anthony Fu",
-    "githubUrl": "https://github.com/antfu",
-    "date": "October 2025",
-    "title": "Building Tools That Spark Joy",
-    "story": "My open source journey has been about creating tools that I wish existed. It started with small utilities to solve my own problems, then evolved into projects like Vitest, Slidev, and UnoCSS. What drives me is the idea of developer experience - making tools that are not just functional, but delightful to use. I believe good DX isn't just about performance or features, it's about the small details that make developers smile. Every project I work on, whether it's a testing framework or a presentation tool, starts with the question: 'How can this be more enjoyable?' Open source taught me that when you build something useful and share it freely, amazing things happen. People contribute, iterate, and build upon your ideas in ways you never imagined. Hacktoberfest represents this spirit perfectly - it's about collaboration, learning, and giving back to the community that has given us so much. My advice: don't wait for the perfect idea. Build what you need, share it openly, and be surprised by what the community creates together.",
-    "tags": ["advanced", "maintainer", "vue", "vite", "typescript", "tooling"]
-  },
-  {
-    "id": 7,
-    "username": "ry",
-    "name": "Ryan Dahl",
-    "githubUrl": "https://github.com/ry",
-    "date": "October 2025",
-    "title": "Lessons from Building Runtime Environments",
-    "story": "Creating Node.js taught me that sometimes the best ideas come from questioning established patterns. I wanted JavaScript on the server because V8 made it possible, and the async I/O model felt right. Years later with Deno, I got to revisit those decisions with hindsight. The mistakes I made with Node.js - the module system, security model, build complexity - became opportunities to do better. Open source is iterative. You release something, the community uses it in ways you never imagined, and you learn. Node became bigger than I ever expected, and that taught me humility. Your code will outlive your involvement in it. Make it count, but also be willing to let go and let others steer. The most rewarding part isn't the downloads or stars - it's seeing people build amazing things you never thought possible.",
-    "tags": ["creator", "javascript", "nodejs", "deno", "runtime"]
-  },
-  {
-    "id": 8,
-    "username": "dhh",
-    "name": "David Heinemeier Hansson",
-    "githubUrl": "https://github.com/dhh",
-    "date": "October 2025",
-    "title": "Convention Over Configuration Changed Everything",
-    "story": "When I extracted Ruby on Rails from Basecamp, I was just trying to avoid repeating myself. I was tired of writing the same boilerplate for every web app. The insight was simple: most web applications need the same things, so why not make those the defaults? Convention over configuration wasn't about being clever - it was about being lazy in the right way. Open source gave Rails wings I could never have given it alone. Thousands of developers contributed patterns, gems, and ideas that made it exponentially better. What I learned: Strong opinions, weakly held. Be opinionated in your design, but listen when the community shows you a better way. The web needed Rails-like frameworks, and Rails needed the community. It's a beautiful symbiosis.",
-    "tags": ["creator", "ruby", "rails", "web", "framework"]
-  },
-  {
-    "id": 9,
-    "username": "tj",
-    "name": "TJ Holowaychuk",
-    "githubUrl": "https://github.com/tj",
-    "date": "October 2025",
-    "title": "From Express to Go: A Journey of Exploration",
-    "story": "I've created hundreds of open source projects - Express, Commander, Mocha, and countless others. People ask how I stay productive, but honestly, it's about curiosity more than discipline. I build tools because I want to explore ideas. Express came from wanting a minimal web framework for Node. Then I got curious about Go and built similar tools there. Some projects took off, others didn't, and that's okay. The real value isn't in any single project - it's in the collective learning and the community that forms around solving problems together. My advice: Don't get too attached to your code. Build it, ship it, move on to the next idea. Let the community decide what's valuable. Some of my weekend experiments became critical infrastructure for millions of developers. You never know what will resonate.",
-    "tags": ["creator", "javascript", "nodejs", "express", "golang"]
-  },
-  {
-    "id": 10,
-    "username": "matz",
-    "name": "Yukihiro Matsumoto",
-    "githubUrl": "https://github.com/matz",
-    "date": "October 2025",
-    "title": "Designing a Language for Human Happiness",
-    "story": "When I created Ruby, I wanted a language that made me happy. Not fast, not powerful - happy. I believed that developer joy was as important as technical efficiency. Many people thought this was naive, but the community proved them wrong. Ruby's expressiveness and the principle of least surprise resonated with developers who were tired of fighting their tools. Open source showed me that when you optimize for humans instead of machines, something magical happens. People don't just use your software - they fall in love with it. They contribute, evangelize, and build entire ecosystems around it. Ruby on Rails amplified this beyond my wildest dreams. The lesson: technical excellence matters, but never forget that code is written by humans for humans. Make it joyful.",
-    "tags": ["creator", "ruby", "language-design", "philosophy"]
-  },
-  {
-    "id": 11,
-    "username": "shiffman",
-    "name": "Daniel Shiffman",
-    "githubUrl": "https://github.com/shiffman",
-    "date": "October 2025",
-    "title": "Teaching Through Code and Community",
-    "story": "My journey in open source has always been intertwined with education. Through Processing, p5.js, and YouTube tutorials, I've tried to make creative coding accessible to everyone. What I love about open source in education is that the code itself becomes a teaching tool. Students can read it, modify it, break it, and learn from it. The Coding Train community taught me that the best way to learn is by doing - and by sharing your mistakes publicly. I mess up in my videos all the time, and that's the point. It shows that programming is iterative, messy, and human. Open source is the perfect medium for this kind of learning because everything is transparent. You can see the evolution of ideas, the bugs, the fixes, the discussions. It's not just about the final product - it's about the journey.",
-    "tags": ["educator", "creative-coding", "processing", "p5js", "teaching"]
-  },
-  {
-    "id": 12,
-    "username": "karpathy",
-    "name": "Andrej Karpathy",
-    "githubUrl": "https://github.com/karpathy",
-    "date": "October 2025",
-    "title": "Democratizing AI Through Open Education",
-    "story": "I've always believed that AI and deep learning should be accessible to everyone, not just researchers at big tech companies. That's why I've open sourced educational tools like micrograd and nanoGPT - these aren't production frameworks, they're learning tools. By stripping neural networks down to their bare essentials and implementing them from scratch, people can actually understand what's happening under the hood. Open source in AI is critical because these technologies are too important to be locked behind closed doors. When I was at Tesla and OpenAI, I saw how powerful these tools could be. But the real power comes when everyone can learn, experiment, and contribute. My YouTube lectures and GitHub repos are my way of giving back - showing people that you don't need a PhD or corporate resources to understand and build AI systems. You just need curiosity and access to open knowledge.",
-    "tags": ["ai", "machine-learning", "education", "neural-networks", "deep-learning"]
-  },
-  {
-    "id": 13,
-    "username": "BrendanEich",
-    "name": "Brendan Eich",
-    "githubUrl": "https://github.com/BrendanEich",
-    "date": "October 2025",
-    "title": "Creating JavaScript in 10 Days and 25 Years of Evolution",
-    "story": "I created JavaScript in 10 days at Netscape in 1995, and it's been evolving ever since. People love to criticize its quirks, and honestly, some of that criticism is fair - I had to work fast and made compromises. But what amazes me is how the community took this scrappy little language and turned it into the foundation of modern web development. Open standards and open source saved JavaScript. TC39, Node.js, npm, frameworks like React and Vue - none of this was my doing alone. The community took JavaScript far beyond what I imagined. The lesson here is that your initial implementation doesn't have to be perfect. What matters is building something extensible that the community can improve. JavaScript succeeded not because it was perfectly designed, but because it was open enough to evolve. That's the power of open source and open standards working together.",
-    "tags": ["creator", "javascript", "web", "language-design", "standards"]
-  },
-  {
-    "id": 14,
-    "username": "coolsnowwolf",
-    "name": "Lean",
-    "githubUrl": "https://github.com/coolsnowwolf",
-    "date": "October 2025",
-    "title": "Building OpenWrt for the Community",
-    "story": "I maintain Lede, an OpenWrt firmware that's widely used in China and around the world. What started as customizing firmware for my own router became something thousands of people rely on daily. Open source lets me share improvements that make routers more powerful and stable. The community contributes plugins, fixes bugs, and helps test on different hardware. It's amazing how a project focused on such specific hardware can bring together people from different countries who just want better control over their network devices. Every commit makes someone's internet faster or more secure, and that's rewarding.",
-    "tags": ["firmware", "openwrt", "networking", "embedded", "maintainer"]
-  },
-  {
-    "id": 15,
-    "username": "yyx990803",
-    "name": "Evan You",
-    "githubUrl": "https://github.com/yyx990803",
-    "date": "October 2025",
-    "title": "From Side Project to Full-Time Open Source",
-    "story": "Vue.js started as a side project when I was working at Google. I wanted a simpler alternative to Angular for personal projects. I shared it on GitHub, not expecting much. The response was overwhelming. What I learned: you don't need permission to start. Build something you need, make it open source, and see if others find it useful. The hardest part was transitioning to full-time open source through Patreon and sponsorships. It felt risky leaving a stable job, but the community support made it possible. Now Vue supports millions of developers, and I get to work on what I love every day. Open source isn't just about code - it's about building sustainable communities.",
-    "tags": ["creator", "vue", "javascript", "framework", "full-time-oss"]
-  }
-     {
-    "id": 16,
-    "username": "Jenil1905",
-    "name": "Jenil",
-    "githubUrl": "https://github.comenil1905",
-    "date": "October 2025",
-    "title": "Turning Curiosity Into Code",
-    "story": "My journey began with a simple goal — to understand how things work behind the screen. What started as small experiments soon turned into real projects like FlickVerse, a movie discovery platform built with React. Through it, I learned not just how to code, but how to think like a developer. As I explored further, I found myself diving into data analytics — discovering how data can tell stories and drive decisions. Every project I build is a step toward becoming a better creator and problem solver. What I’ve learned is that consistency matters more than perfection. I don’t wait for the perfect idea anymore; I start, build, break, and improve. For me, coding isn’t just a skill — it’s the language through which I turn curiosity into creation.",
-    "tags": ["developer", "react", "data-analytics", "learning-journey", "growth"]
-}
+      "id": 4,
+      "username": "singhcod3r",
+      "name": "Ayush Singh",
+      "githubUrl": "https://github.com/SinghCod3r",
+      "date": "October 2025",
+      "title": "My Open Source Journey Started with Curiosity",
+      "story": "I got interested in open source through programs like GSoC and Code4GovTech. However, due to a lack of experience at the time, I decided to start exploring GitHub and contributing on my own. My first real contribution was to the Medic organization, which is a part of Code4GovTech. After that, I contributed to WPRig and several other projects. These early steps helped me understand how open source works, and I’ve been learning ever since. It’s been a rewarding journey of growth, and I encourage beginners to start small and stay consistent.",
+      "tags": [
+        "beginner",
+        "hacktoberfest",
+        "first-contribution",
+        "learning"
+      ]
+    },
+    {
+      "id": 5,
+      "username": "HiddenKeyDev",
+      "name": "HiddenKeyDev",
+      "githubUrl": "https://github.com/HiddenKeyDev",
+      "date": "October 2025",
+      "title": "My First Contribution After Months of Tutorial Hell",
+      "story": "I've been learning React for about six months now. Mostly following tutorials on YouTube, building the same to-do apps and weather apps everyone builds, then abandoning them halfway through. My GitHub looks pretty empty because honestly, I never thought my code was good enough to push. I'd start projects, get stuck on something, Google it for hours, then just give up and start a new tutorial. Classic tutorial hell. When Hacktoberfest came around, I wanted to participate but every project I looked at seemed way too advanced. Then I found this one. Just adding a story to a JSON file. No complex algorithms, no fancy React components, just... sharing something real. And I still hesitated for three days before actually doing it. I kept thinking 'my story isn't interesting enough' or 'I haven't contributed to anything real yet so what do I even say?' But then I realized that IS my story - the hesitation, the self-doubt, the endless tutorials without actually building anything original. I'm not employed as a developer yet. I'm not even sure I'm good enough to apply for jobs. But I'm here, making my first contribution, even if it's small. Sometimes the hardest part isn't the code - it's believing your participation actually matters. So here it is. My first merged PR. Hopefully the first of many.",
+      "tags": [
+        "beginner",
+        "hacktoberfest",
+        "first-contribution",
+        "learning"
+      ]
+    },
+    {
+      "id": 6,
+      "username": "antfu",
+      "name": "Anthony Fu",
+      "githubUrl": "https://github.com/antfu",
+      "date": "October 2025",
+      "title": "Building Tools That Spark Joy",
+      "story": "My open source journey has been about creating tools that I wish existed. It started with small utilities to solve my own problems, then evolved into projects like Vitest, Slidev, and UnoCSS. What drives me is the idea of developer experience - making tools that are not just functional, but delightful to use. I believe good DX isn't just about performance or features, it's about the small details that make developers smile. Every project I work on, whether it's a testing framework or a presentation tool, starts with the question: 'How can this be more enjoyable?' Open source taught me that when you build something useful and share it freely, amazing things happen. People contribute, iterate, and build upon your ideas in ways you never imagined. Hacktoberfest represents this spirit perfectly - it's about collaboration, learning, and giving back to the community that has given us so much. My advice: don't wait for the perfect idea. Build what you need, share it openly, and be surprised by what the community creates together.",
+      "tags": [
+        "advanced",
+        "maintainer",
+        "vue",
+        "vite",
+        "typescript",
+        "tooling"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "ry",
+      "name": "Ryan Dahl",
+      "githubUrl": "https://github.com/ry",
+      "date": "October 2025",
+      "title": "Lessons from Building Runtime Environments",
+      "story": "Creating Node.js taught me that sometimes the best ideas come from questioning established patterns. I wanted JavaScript on the server because V8 made it possible, and the async I/O model felt right. Years later with Deno, I got to revisit those decisions with hindsight. The mistakes I made with Node.js - the module system, security model, build complexity - became opportunities to do better. Open source is iterative. You release something, the community uses it in ways you never imagined, and you learn. Node became bigger than I ever expected, and that taught me humility. Your code will outlive your involvement in it. Make it count, but also be willing to let go and let others steer. The most rewarding part isn't the downloads or stars - it's seeing people build amazing things you never thought possible.",
+      "tags": [
+        "creator",
+        "javascript",
+        "nodejs",
+        "deno",
+        "runtime"
+      ]
+    },
+    {
+      "id": 8,
+      "username": "dhh",
+      "name": "David Heinemeier Hansson",
+      "githubUrl": "https://github.com/dhh",
+      "date": "October 2025",
+      "title": "Convention Over Configuration Changed Everything",
+      "story": "When I extracted Ruby on Rails from Basecamp, I was just trying to avoid repeating myself. I was tired of writing the same boilerplate for every web app. The insight was simple: most web applications need the same things, so why not make those the defaults? Convention over configuration wasn't about being clever - it was about being lazy in the right way. Open source gave Rails wings I could never have given it alone. Thousands of developers contributed patterns, gems, and ideas that made it exponentially better. What I learned: Strong opinions, weakly held. Be opinionated in your design, but listen when the community shows you a better way. The web needed Rails-like frameworks, and Rails needed the community. It's a beautiful symbiosis.",
+      "tags": [
+        "creator",
+        "ruby",
+        "rails",
+        "web",
+        "framework"
+      ]
+    },
+    {
+      "id": 9,
+      "username": "tj",
+      "name": "TJ Holowaychuk",
+      "githubUrl": "https://github.com/tj",
+      "date": "October 2025",
+      "title": "From Express to Go: A Journey of Exploration",
+      "story": "I've created hundreds of open source projects - Express, Commander, Mocha, and countless others. People ask how I stay productive, but honestly, it's about curiosity more than discipline. I build tools because I want to explore ideas. Express came from wanting a minimal web framework for Node. Then I got curious about Go and built similar tools there. Some projects took off, others didn't, and that's okay. The real value isn't in any single project - it's in the collective learning and the community that forms around solving problems together. My advice: Don't get too attached to your code. Build it, ship it, move on to the next idea. Let the community decide what's valuable. Some of my weekend experiments became critical infrastructure for millions of developers. You never know what will resonate.",
+      "tags": [
+        "creator",
+        "javascript",
+        "nodejs",
+        "express",
+        "golang"
+      ]
+    },
+    {
+      "id": 10,
+      "username": "matz",
+      "name": "Yukihiro Matsumoto",
+      "githubUrl": "https://github.com/matz",
+      "date": "October 2025",
+      "title": "Designing a Language for Human Happiness",
+      "story": "When I created Ruby, I wanted a language that made me happy. Not fast, not powerful - happy. I believed that developer joy was as important as technical efficiency. Many people thought this was naive, but the community proved them wrong. Ruby's expressiveness and the principle of least surprise resonated with developers who were tired of fighting their tools. Open source showed me that when you optimize for humans instead of machines, something magical happens. People don't just use your software - they fall in love with it. They contribute, evangelize, and build entire ecosystems around it. Ruby on Rails amplified this beyond my wildest dreams. The lesson: technical excellence matters, but never forget that code is written by humans for humans. Make it joyful.",
+      "tags": [
+        "creator",
+        "ruby",
+        "language-design",
+        "philosophy"
+      ]
+    },
+    {
+      "id": 11,
+      "username": "shiffman",
+      "name": "Daniel Shiffman",
+      "githubUrl": "https://github.com/shiffman",
+      "date": "October 2025",
+      "title": "Teaching Through Code and Community",
+      "story": "My journey in open source has always been intertwined with education. Through Processing, p5.js, and YouTube tutorials, I've tried to make creative coding accessible to everyone. What I love about open source in education is that the code itself becomes a teaching tool. Students can read it, modify it, break it, and learn from it. The Coding Train community taught me that the best way to learn is by doing - and by sharing your mistakes publicly. I mess up in my videos all the time, and that's the point. It shows that programming is iterative, messy, and human. Open source is the perfect medium for this kind of learning because everything is transparent. You can see the evolution of ideas, the bugs, the fixes, the discussions. It's not just about the final product - it's about the journey.",
+      "tags": [
+        "educator",
+        "creative-coding",
+        "processing",
+        "p5js",
+        "teaching"
+      ]
+    },
+    {
+      "id": 12,
+      "username": "karpathy",
+      "name": "Andrej Karpathy",
+      "githubUrl": "https://github.com/karpathy",
+      "date": "October 2025",
+      "title": "Democratizing AI Through Open Education",
+      "story": "I've always believed that AI and deep learning should be accessible to everyone, not just researchers at big tech companies. That's why I've open sourced educational tools like micrograd and nanoGPT - these aren't production frameworks, they're learning tools. By stripping neural networks down to their bare essentials and implementing them from scratch, people can actually understand what's happening under the hood. Open source in AI is critical because these technologies are too important to be locked behind closed doors. When I was at Tesla and OpenAI, I saw how powerful these tools could be. But the real power comes when everyone can learn, experiment, and contribute. My YouTube lectures and GitHub repos are my way of giving back - showing people that you don't need a PhD or corporate resources to understand and build AI systems. You just need curiosity and access to open knowledge.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "education",
+        "neural-networks",
+        "deep-learning"
+      ]
+    },
+    {
+      "id": 13,
+      "username": "BrendanEich",
+      "name": "Brendan Eich",
+      "githubUrl": "https://github.com/BrendanEich",
+      "date": "October 2025",
+      "title": "Creating JavaScript in 10 Days and 25 Years of Evolution",
+      "story": "I created JavaScript in 10 days at Netscape in 1995, and it's been evolving ever since. People love to criticize its quirks, and honestly, some of that criticism is fair - I had to work fast and made compromises. But what amazes me is how the community took this scrappy little language and turned it into the foundation of modern web development. Open standards and open source saved JavaScript. TC39, Node.js, npm, frameworks like React and Vue - none of this was my doing alone. The community took JavaScript far beyond what I imagined. The lesson here is that your initial implementation doesn't have to be perfect. What matters is building something extensible that the community can improve. JavaScript succeeded not because it was perfectly designed, but because it was open enough to evolve. That's the power of open source and open standards working together.",
+      "tags": [
+        "creator",
+        "javascript",
+        "web",
+        "language-design",
+        "standards"
+      ]
+    },
+    {
+      "id": 14,
+      "username": "coolsnowwolf",
+      "name": "Lean",
+      "githubUrl": "https://github.com/coolsnowwolf",
+      "date": "October 2025",
+      "title": "Building OpenWrt for the Community",
+      "story": "I maintain Lede, an OpenWrt firmware that's widely used in China and around the world. What started as customizing firmware for my own router became something thousands of people rely on daily. Open source lets me share improvements that make routers more powerful and stable. The community contributes plugins, fixes bugs, and helps test on different hardware. It's amazing how a project focused on such specific hardware can bring together people from different countries who just want better control over their network devices. Every commit makes someone's internet faster or more secure, and that's rewarding.",
+      "tags": [
+        "firmware",
+        "openwrt",
+        "networking",
+        "embedded",
+        "maintainer"
+      ]
+    },
+    {
+      "id": 15,
+      "username": "yyx990803",
+      "name": "Evan You",
+      "githubUrl": "https://github.com/yyx990803",
+      "date": "October 2025",
+      "title": "From Side Project to Full-Time Open Source",
+      "story": "Vue.js started as a side project when I was working at Google. I wanted a simpler alternative to Angular for personal projects. I shared it on GitHub, not expecting much. The response was overwhelming. What I learned: you don't need permission to start. Build something you need, make it open source, and see if others find it useful. The hardest part was transitioning to full-time open source through Patreon and sponsorships. It felt risky leaving a stable job, but the community support made it possible. Now Vue supports millions of developers, and I get to work on what I love every day. Open source isn't just about code - it's about building sustainable communities.",
+      "tags": [
+        "creator",
+        "vue",
+        "javascript",
+        "framework",
+        "full-time-oss"
+      ]
+    },
+    {
+      "id": 16,
+      "username": "Jenil1905",
+      "name": "Jenil",
+      "githubUrl": "https://github.com/Jenil1905",
+      "date": "October 2025",
+      "title": "Turning Curiosity Into Code",
+      "story": "My journey began with a simple goal — to understand how things work behind the screen. What started as small experiments soon turned into real projects like FlickVerse, a movie discovery platform built with React. Through it, I learned not just how to code, but how to think like a developer. As I explored further, I found myself diving into data analytics — discovering how data can tell stories and drive decisions. Every project I build is a step toward becoming a better creator and problem solver. What I’ve learned is that consistency matters more than perfection. I don’t wait for the perfect idea anymore; I start, build, break, and improve. For me, coding isn’t just a skill — it’s the language through which I turn curiosity into creation.",
+      "tags": [
+        "developer",
+        "react",
+        "data-analytics",
+        "learning-journey",
+        "growth"
+      ]
+    },
+    {
+      "id": 17,
+      "username": "Amarjeet9305",
+      "name": "Amarjeet",
+      "githubUrl": "https://github.com/Amarjeet9305",
+      "date": "October 2025",
+      "title": "From Passion Projects to Purposeful Code",
+      "story": "I’m Amarjeet, a B.Tech Computer Science student driven by curiosity and a deep interest in machine learning, web development, and building solutions that matter. My GitHub began as a space to test ideas — from basic Python scripts to gesture-controlled tools and ERP systems. I didn’t wait for permission to start. I built what intrigued me. One project led to another. Before I knew it, someone messaged me asking if they could use my code in their application. That moment shifted my mindset. My personal learning tools were becoming public resources. Transitioning from just 'coding for fun' to building meaningful, open tools wasn’t easy. It meant learning in the open, facing critiques, managing college responsibilities — and still showing up to write better code. But with every commit, I got better. Today, I focus on building data-driven apps, exploring AI, and sharing what I learn. My dream is to contribute to health tech, develop tools with real impact, and help others grow along the way. Open source taught me that you don’t need to be perfect — you just need to begin. My GitHub is the record of that journey.",
+      "tags": [
+        "student",
+        "developer",
+        "python",
+        "machine-learning",
+        "fullstack",
+        "open-source",
+        "healthtech"
+      ]
+    },
+    {
+      "id": 18,
+      "username": "sudhanshu1404",
+      "name": "Sudhanshu Chaudhary",
+      "githubUrl": "https://github.com/sudhanshu1404",
+      "date": "October 2025",
+      "title": "From Curiosity to Craft",
+      "story": "I’m Sudhanshu Chaudhary, a Computer Science student at Bundelkhand University, Jhansi. My GitHub started as a simple place to learn — to explore Django, Python, Java, and machine learning through hands-on projects. I never imagined it would become such a central part of my growth. I built web apps like employee management systems, machine learning models for prediction, and Android mini-games like Tic Tac Toe. Each small project taught me more than any tutorial could. The breakthrough came when others began using and commenting on my code. Suddenly, I wasn’t just building for myself — I was solving problems for others. That shift was powerful. I faced challenges too: balancing coding with academics, learning to accept critique, pushing through self-doubt. But I kept shipping, kept iterating. Today, open source and personal projects are my strongest learning tools. They taught me that growth doesn’t require perfection — just persistence. My goal now is to build solutions that impact real lives, especially in data-driven health tech. I want to contribute, collaborate, and help others rise with me. GitHub is no longer just my portfolio — it’s my journey in code.",
+      "tags": [
+        "developer",
+        "python",
+        "django",
+        "student-projects",
+        "machine-learning",
+        "open-source"
+      ]
+    },
+    {
+      "id": 19,
+      "username": "luckytiwari46",
+      "name": "Lucky Tiwari",
+      "githubUrl": "https://github.com/luckytiwari46",
+      "date": "October 2025",
+      "title": "My Open Source Journey – From Curious Beginner to Confident Contributor",
+      "story": "My open-source journey began with curiosity and a desire to grow as a developer. During Hacktoberfest, I discovered how welcoming the open-source community can be. My first pull request felt intimidating, but the supportive maintainers and clear documentation helped me gain confidence. I learned how to navigate GitHub, understand project structures, and write cleaner code through code reviews. One major challenge was finding beginner-friendly repositories, but platforms like Good First Issues and the Hacktoberfest tag helped me get started. Open source not only improved my technical skills but also taught me the value of collaboration, communication, and consistency. For beginners: don't wait to feel 'ready.' Start small, ask questions, and celebrate every contribution—no matter how small it seems.",
+      "tags": [
+        "beginner",
+        "hacktoberfest",
+        "first-contribution"
+      ]
+    }
   ]
-}, 
-{
-  "id": 17,
-  "username": "Amarjeet9305",
-  "name": "Amarjeet",
-  "githubUrl": "https://github.com/Amarjeet9305",
-  "date": "October 2025",
-  "title": "From Passion Projects to Purposeful Code",
-  "story": "I’m Amarjeet, a B.Tech Computer Science student driven by curiosity and a deep interest in machine learning, web development, and building solutions that matter. My GitHub began as a space to test ideas — from basic Python scripts to gesture-controlled tools and ERP systems. I didn’t wait for permission to start. I built what intrigued me. One project led to another. Before I knew it, someone messaged me asking if they could use my code in their application. That moment shifted my mindset. My personal learning tools were becoming public resources. Transitioning from just 'coding for fun' to building meaningful, open tools wasn’t easy. It meant learning in the open, facing critiques, managing college responsibilities — and still showing up to write better code. But with every commit, I got better. Today, I focus on building data-driven apps, exploring AI, and sharing what I learn. My dream is to contribute to health tech, develop tools with real impact, and help others grow along the way. Open source taught me that you don’t need to be perfect — you just need to begin. My GitHub is the record of that journey.",
-  "tags": ["student", "developer", "python", "machine-learning", "fullstack", "open-source", "healthtech"]
-},
-{
-  "id": 16,
-  "username": "sudhanshu1404",
-  "name": "Sudhanshu Chaudhary",
-  "githubUrl": "https://github.com/sudhanshu1404",
-  "date": "October 2025",
-  "title": "From Curiosity to Craft",
-  "story": "I’m Sudhanshu Chaudhary, a Computer Science student at Bundelkhand University, Jhansi. My GitHub started as a simple place to learn — to explore Django, Python, Java, and machine learning through hands-on projects. I never imagined it would become such a central part of my growth. I built web apps like employee management systems, machine learning models for prediction, and Android mini-games like Tic Tac Toe. Each small project taught me more than any tutorial could. The breakthrough came when others began using and commenting on my code. Suddenly, I wasn’t just building for myself — I was solving problems for others. That shift was powerful. I faced challenges too: balancing coding with academics, learning to accept critique, pushing through self-doubt. But I kept shipping, kept iterating. Today, open source and personal projects are my strongest learning tools. They taught me that growth doesn’t require perfection — just persistence. My goal now is to build solutions that impact real lives, especially in data-driven health tech. I want to contribute, collaborate, and help others rise with me. GitHub is no longer just my portfolio — it’s my journey in code.",
-  "tags": ["developer", "python", "django", "student-projects", "machine-learning", "open-source"]
-  "username": "luckytiwari46",
-  "name": "Lucky Tiwari",
-  "githubUrl": "https://github.com/luckytiwari46",
-  "date": "October 2025",
-  "title": "My Open Source Journey – From Curious Beginner to Confident Contributor",
-  "story": "My open-source journey began with curiosity and a desire to grow as a developer. During Hacktoberfest, I discovered how welcoming the open-source community can be. My first pull request felt intimidating, but the supportive maintainers and clear documentation helped me gain confidence. I learned how to navigate GitHub, understand project structures, and write cleaner code through code reviews. One major challenge was finding beginner-friendly repositories, but platforms like Good First Issues and the Hacktoberfest tag helped me get started. Open source not only improved my technical skills but also taught me the value of collaboration, communication, and consistency. For beginners: don’t wait to feel ‘ready.’ Start small, ask questions, and celebrate every contribution—no matter how small it seems.",
-  "tags": ["beginner", "hacktoberfest", "first-contribution"]
 }
-

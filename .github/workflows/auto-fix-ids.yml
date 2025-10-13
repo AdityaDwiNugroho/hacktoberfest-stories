@@ -1,0 +1,150 @@
+name: Auto-fix Story IDs
+
+on:
+  pull_request:
+    paths:
+      - "public/data/stories.json"
+  push:
+    branches:
+      - main
+    paths:
+      - "public/data/stories.json"
+
+jobs:
+  fix-story-ids:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate JSON format
+        id: validate
+        run: |
+          echo "Validating JSON structure..."
+          if ! jq empty public/data/stories.json 2>/dev/null; then
+            echo "valid=false" >> $GITHUB_OUTPUT
+            echo "Invalid JSON format detected"
+            exit 1
+          fi
+          echo "valid=true" >> $GITHUB_OUTPUT
+          echo "JSON is valid"
+
+      - name: Check and fix duplicate IDs
+        id: fix_ids
+        run: |
+          echo "Checking for duplicate or incorrect story IDs..."
+
+          # Create a Node.js script to fix IDs
+          cat > fix-ids.js << 'EOF'
+          const fs = require('fs');
+
+          const data = JSON.parse(fs.readFileSync('public/data/stories.json', 'utf8'));
+
+          const originalIds = data.stories.map(s => s.id);
+          const duplicates = originalIds.filter((id, index) => originalIds.indexOf(id) !== index);
+
+          let hasChanges = false;
+
+          data.stories.forEach((story, index) => {
+            const newId = index + 1;
+            if (story.id !== newId) {
+              console.log(`Story by ${story.username}: ID ${story.id} -> ${newId}`);
+              story.id = newId;
+              hasChanges = true;
+            }
+          });
+
+          if (duplicates.length > 0) {
+            console.log('\nDuplicate IDs found:', [...new Set(duplicates)].join(', '));
+          }
+
+          if (hasChanges) {
+            console.log('\nIDs have been renumbered sequentially from 1 to', data.stories.length);
+            fs.writeFileSync('public/data/stories.json', JSON.stringify(data, null, 2) + '\n');
+            process.exit(1); 
+          } else {
+            console.log('All IDs are already correctly numbered');
+            process.exit(0);
+          }
+          EOF
+
+          # Run the script
+          if node fix-ids.js; then
+            echo "changes_made=false" >> $GITHUB_OUTPUT
+            echo "No ID changes needed"
+          else
+            echo "changes_made=true" >> $GITHUB_OUTPUT
+            echo "IDs were fixed and renumbered"
+          fi
+
+      - name: Check if file changed
+        id: check_changes
+        if: steps.fix_ids.outputs.changes_made == 'true'
+        run: |
+          if git diff --quiet public/data/stories.json; then
+            echo "file_changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "file_changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit fixed IDs (for push to main)
+        if: steps.check_changes.outputs.file_changed == 'true' && github.event_name == 'push'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/stories.json
+          git commit -m "Auto-fix: Renumber story IDs sequentially [skip ci]"
+          git push
+
+      - name: Commit fixed IDs (for pull request)
+        if: steps.check_changes.outputs.file_changed == 'true' && github.event_name == 'pull_request'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/stories.json
+          git commit -m "Auto-fix: Renumber story IDs sequentially"
+          git push
+
+      - name: Comment on PR about ID fixes
+        if: steps.check_changes.outputs.file_changed == 'true' && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = `## Story IDs Auto-Fixed
+
+            The workflow detected duplicate or non-sequential story IDs and has automatically renumbered them.
+
+            All stories are now numbered sequentially from 1 to ${context.payload.pull_request.commits}.
+
+            This ensures:
+            - No duplicate IDs
+            - Sequential numbering (1, 2, 3, etc.)
+            - Consistent ID structure
+
+            The changes have been committed to your branch. Please pull the latest changes before making any additional commits.
+
+            \`\`\`bash
+            git pull
+            \`\`\`
+
+            Your story content and authorship remain unchanged - only the ID numbers were adjusted.`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
