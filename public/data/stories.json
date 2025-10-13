@@ -150,5 +150,15 @@
     "story": "Vue.js started as a side project when I was working at Google. I wanted a simpler alternative to Angular for personal projects. I shared it on GitHub, not expecting much. The response was overwhelming. What I learned: you don't need permission to start. Build something you need, make it open source, and see if others find it useful. The hardest part was transitioning to full-time open source through Patreon and sponsorships. It felt risky leaving a stable job, but the community support made it possible. Now Vue supports millions of developers, and I get to work on what I love every day. Open source isn't just about code - it's about building sustainable communities.",
     "tags": ["creator", "vue", "javascript", "framework", "full-time-oss"]
   }
+     {
+    "id": 16,
+    "username": "Jenil1905",
+    "name": "Jenil",
+    "githubUrl": "https://github.com/Jenil1905",
+    "date": "October 2025",
+    "title": "Turning Curiosity Into Code",
+    "story": "My journey began with a simple goal — to understand how things work behind the screen. What started as small experiments soon turned into real projects like FlickVerse, a movie discovery platform built with React. Through it, I learned not just how to code, but how to think like a developer. As I explored further, I found myself diving into data analytics — discovering how data can tell stories and drive decisions. Every project I build is a step toward becoming a better creator and problem solver. What I’ve learned is that consistency matters more than perfection. I don’t wait for the perfect idea anymore; I start, build, break, and improve. For me, coding isn’t just a skill — it’s the language through which I turn curiosity into creation.",
+    "tags": ["developer", "react", "data-analytics", "learning-journey", "growth"]
+}
   ]
 }
