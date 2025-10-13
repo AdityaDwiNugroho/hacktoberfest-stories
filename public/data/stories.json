@@ -154,7 +154,7 @@
     "id": 16,
     "username": "Jenil1905",
     "name": "Jenil",
-    "githubUrl": "https://github.com/Jenil1905",
+    "githubUrl": "https://github.comenil1905",
     "date": "October 2025",
     "title": "Turning Curiosity Into Code",
     "story": "My journey began with a simple goal — to understand how things work behind the screen. What started as small experiments soon turned into real projects like FlickVerse, a movie discovery platform built with React. Through it, I learned not just how to code, but how to think like a developer. As I explored further, I found myself diving into data analytics — discovering how data can tell stories and drive decisions. Every project I build is a step toward becoming a better creator and problem solver. What I’ve learned is that consistency matters more than perfection. I don’t wait for the perfect idea anymore; I start, build, break, and improve. For me, coding isn’t just a skill — it’s the language through which I turn curiosity into creation.",
@@ -164,6 +164,13 @@
 },
 {
   "id": 16,
+  "username": "sudhanshu1404",
+  "name": "Sudhanshu Chaudhary",
+  "githubUrl": "https://github.com/sudhanshu1404",
+  "date": "October 2025",
+  "title": "From Curiosity to Craft",
+  "story": "I’m Sudhanshu Chaudhary, a Computer Science student at Bundelkhand University, Jhansi. My GitHub started as a simple place to learn — to explore Django, Python, Java, and machine learning through hands-on projects. I never imagined it would become such a central part of my growth. I built web apps like employee management systems, machine learning models for prediction, and Android mini-games like Tic Tac Toe. Each small project taught me more than any tutorial could. The breakthrough came when others began using and commenting on my code. Suddenly, I wasn’t just building for myself — I was solving problems for others. That shift was powerful. I faced challenges too: balancing coding with academics, learning to accept critique, pushing through self-doubt. But I kept shipping, kept iterating. Today, open source and personal projects are my strongest learning tools. They taught me that growth doesn’t require perfection — just persistence. My goal now is to build solutions that impact real lives, especially in data-driven health tech. I want to contribute, collaborate, and help others rise with me. GitHub is no longer just my portfolio — it’s my journey in code.",
+  "tags": ["developer", "python", "django", "student-projects", "machine-learning", "open-source"]
   "username": "luckytiwari46",
   "name": "Lucky Tiwari",
   "githubUrl": "https://github.com/luckytiwari46",
