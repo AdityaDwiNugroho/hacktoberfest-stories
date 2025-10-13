@@ -150,6 +150,16 @@
     "story": "Vue.js started as a side project when I was working at Google. I wanted a simpler alternative to Angular for personal projects. I shared it on GitHub, not expecting much. The response was overwhelming. What I learned: you don't need permission to start. Build something you need, make it open source, and see if others find it useful. The hardest part was transitioning to full-time open source through Patreon and sponsorships. It felt risky leaving a stable job, but the community support made it possible. Now Vue supports millions of developers, and I get to work on what I love every day. Open source isn't just about code - it's about building sustainable communities.",
     "tags": ["creator", "vue", "javascript", "framework", "full-time-oss"]
   }
+     {
+    "id": 16,
+    "username": "Jenil1905",
+    "name": "Jenil",
+    "githubUrl": "https://github.comenil1905",
+    "date": "October 2025",
+    "title": "Turning Curiosity Into Code",
+    "story": "My journey began with a simple goal — to understand how things work behind the screen. What started as small experiments soon turned into real projects like FlickVerse, a movie discovery platform built with React. Through it, I learned not just how to code, but how to think like a developer. As I explored further, I found myself diving into data analytics — discovering how data can tell stories and drive decisions. Every project I build is a step toward becoming a better creator and problem solver. What I’ve learned is that consistency matters more than perfection. I don’t wait for the perfect idea anymore; I start, build, break, and improve. For me, coding isn’t just a skill — it’s the language through which I turn curiosity into creation.",
+    "tags": ["developer", "react", "data-analytics", "learning-journey", "growth"]
+}
   ]
 }, 
 {
@@ -161,5 +171,22 @@
   "title": "From Passion Projects to Purposeful Code",
   "story": "I’m Amarjeet, a B.Tech Computer Science student driven by curiosity and a deep interest in machine learning, web development, and building solutions that matter. My GitHub began as a space to test ideas — from basic Python scripts to gesture-controlled tools and ERP systems. I didn’t wait for permission to start. I built what intrigued me. One project led to another. Before I knew it, someone messaged me asking if they could use my code in their application. That moment shifted my mindset. My personal learning tools were becoming public resources. Transitioning from just 'coding for fun' to building meaningful, open tools wasn’t easy. It meant learning in the open, facing critiques, managing college responsibilities — and still showing up to write better code. But with every commit, I got better. Today, I focus on building data-driven apps, exploring AI, and sharing what I learn. My dream is to contribute to health tech, develop tools with real impact, and help others grow along the way. Open source taught me that you don’t need to be perfect — you just need to begin. My GitHub is the record of that journey.",
   "tags": ["student", "developer", "python", "machine-learning", "fullstack", "open-source", "healthtech"]
+},
+{
+  "id": 16,
+  "username": "sudhanshu1404",
+  "name": "Sudhanshu Chaudhary",
+  "githubUrl": "https://github.com/sudhanshu1404",
+  "date": "October 2025",
+  "title": "From Curiosity to Craft",
+  "story": "I’m Sudhanshu Chaudhary, a Computer Science student at Bundelkhand University, Jhansi. My GitHub started as a simple place to learn — to explore Django, Python, Java, and machine learning through hands-on projects. I never imagined it would become such a central part of my growth. I built web apps like employee management systems, machine learning models for prediction, and Android mini-games like Tic Tac Toe. Each small project taught me more than any tutorial could. The breakthrough came when others began using and commenting on my code. Suddenly, I wasn’t just building for myself — I was solving problems for others. That shift was powerful. I faced challenges too: balancing coding with academics, learning to accept critique, pushing through self-doubt. But I kept shipping, kept iterating. Today, open source and personal projects are my strongest learning tools. They taught me that growth doesn’t require perfection — just persistence. My goal now is to build solutions that impact real lives, especially in data-driven health tech. I want to contribute, collaborate, and help others rise with me. GitHub is no longer just my portfolio — it’s my journey in code.",
+  "tags": ["developer", "python", "django", "student-projects", "machine-learning", "open-source"]
+  "username": "luckytiwari46",
+  "name": "Lucky Tiwari",
+  "githubUrl": "https://github.com/luckytiwari46",
+  "date": "October 2025",
+  "title": "My Open Source Journey – From Curious Beginner to Confident Contributor",
+  "story": "My open-source journey began with curiosity and a desire to grow as a developer. During Hacktoberfest, I discovered how welcoming the open-source community can be. My first pull request felt intimidating, but the supportive maintainers and clear documentation helped me gain confidence. I learned how to navigate GitHub, understand project structures, and write cleaner code through code reviews. One major challenge was finding beginner-friendly repositories, but platforms like Good First Issues and the Hacktoberfest tag helped me get started. Open source not only improved my technical skills but also taught me the value of collaboration, communication, and consistency. For beginners: don’t wait to feel ‘ready.’ Start small, ask questions, and celebrate every contribution—no matter how small it seems.",
+  "tags": ["beginner", "hacktoberfest", "first-contribution"]
 }
 
