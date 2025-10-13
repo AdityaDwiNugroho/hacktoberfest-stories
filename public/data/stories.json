@@ -161,4 +161,15 @@
     "tags": ["developer", "react", "data-analytics", "learning-journey", "growth"]
 }
   ]
+},
+{
+  "id": 16,
+  "username": "luckytiwari46",
+  "name": "Lucky Tiwari",
+  "githubUrl": "https://github.com/luckytiwari46",
+  "date": "October 2025",
+  "title": "My Open Source Journey – From Curious Beginner to Confident Contributor",
+  "story": "My open-source journey began with curiosity and a desire to grow as a developer. During Hacktoberfest, I discovered how welcoming the open-source community can be. My first pull request felt intimidating, but the supportive maintainers and clear documentation helped me gain confidence. I learned how to navigate GitHub, understand project structures, and write cleaner code through code reviews. One major challenge was finding beginner-friendly repositories, but platforms like Good First Issues and the Hacktoberfest tag helped me get started. Open source not only improved my technical skills but also taught me the value of collaboration, communication, and consistency. For beginners: don’t wait to feel ‘ready.’ Start small, ask questions, and celebrate every contribution—no matter how small it seems.",
+  "tags": ["beginner", "hacktoberfest", "first-contribution"]
 }
+
