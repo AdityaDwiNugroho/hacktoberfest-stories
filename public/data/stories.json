@@ -296,6 +296,20 @@
         "hacktoberfest",
         "first-contribution"
       ]
+    },
+    {
+      "id":20,
+      "username":"SatriaKurnia",
+      "name":"Satria Kuria",
+      "githubUrl":"https://github.com/SatriaKurnia",
+      "date":"October 2025",
+      "title":"My journey to learn to program",
+      "story":"At the beginning of learning programming I couldn't do anything and then I got dizzy and dizzy at that time I gave up because I couldn't do anything. Luckily I studied again and I still couldn't do anything and on that day I was still trying new things from HTML to Javascript after that I jumped again to learn Python",
+      "tags":[
+        "beginner",
+        "hacktoberfest",
+        "learning"
+      ]
     }
   ]
 }
